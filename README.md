@@ -917,3 +917,4 @@ avg:lighthouse.resource_dom_nodes{*} by {url_path}
    - Group related metrics
    - Use appropriate visualizations
    - Include threshold indicators
+# Test
