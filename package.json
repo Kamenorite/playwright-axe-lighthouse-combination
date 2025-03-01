@@ -42,7 +42,7 @@
     "eslint-plugin-import": "^2.31.0",
     "lefthook": "^1.5.5",
     "playwright-lighthouse": "^4.0.0",
-    "prettier": "^3.2.5"
+    "prettier": "^2.8.8"
   },
   "directories": {
     "test": "tests"
