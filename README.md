@@ -90,7 +90,7 @@ These hooks are automatically installed when you run `npm install`.
 
 ## Prerequisites
 
-- Node.js (v14 or higher)
+- Node.js (v18 or higher)
 - npm or yarn
 - Chrome browser
 
@@ -917,6 +917,5 @@ avg:lighthouse.resource_dom_nodes{*} by {url_path}
    - Group related metrics
    - Use appropriate visualizations
    - Include threshold indicators
-
 
 # Test
