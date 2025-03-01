@@ -90,9 +90,38 @@ These hooks are automatically installed when you run `npm install`.
 
 ## Prerequisites
 
-- Node.js (v18 or higher)
+- Node.js (v22.1.0)
 - npm or yarn
 - Chrome browser
+
+## Node.js Version Management
+
+This project requires Node.js v22.1.0. We provide configuration files for multiple version managers:
+
+### Using nvm (Node Version Manager)
+
+The project includes a `.nvmrc` file that specifies the required Node.js version. If you use [nvm](https://github.com/nvm-sh/nvm), you can automatically switch to the correct version:
+
+```bash
+# Install the required Node.js version
+nvm install
+
+# Use the version specified in .nvmrc
+nvm use
+```
+
+### Using asdf
+
+The project includes a `.tool-versions` file for [asdf](https://asdf-vm.com/) users:
+
+```bash
+# Install the required Node.js version
+asdf install nodejs 22.1.0
+
+# The correct version will be automatically used when in the project directory
+# Or you can explicitly use:
+asdf exec node --version
+```
 
 ## Installation
 
