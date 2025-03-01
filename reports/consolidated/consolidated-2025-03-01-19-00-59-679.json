@@ -1,0 +1,3729 @@
+{
+  "timestamp": "2025-03-01-19-00-59-679",
+  "displayDate": "Sat, 01 Mar 2025 19:00:59 GMT",
+  "totalTests": 6,
+  "thresholds": {},
+  "summary": {
+    "totalAccessibilityViolations": 18,
+    "averageMetrics": {}
+  },
+  "metrics": [
+    {
+      "timestamp": "2025-03-01-19-00-59-679",
+      "test_name": "should test empty todo list",
+      "url_path": "/todomvc/",
+      "perf_threshold": 80,
+      "perf_score": 100,
+      "a11y_threshold": 90,
+      "a11y_score": 90,
+      "bp_threshold": 90,
+      "bp_score": 96,
+      "seo_threshold": 90,
+      "seo_score": 90,
+      "vital_lcp": 0,
+      "vital_fid": 0,
+      "vital_cls": 0,
+      "metric_fcp": 0,
+      "metric_si": 0,
+      "metric_tbt": 0,
+      "metric_tti": 0,
+      "metric_ttfb": 0,
+      "network_rtt": 0,
+      "network_latency": 0,
+      "resource_bytes": 0,
+      "resource_dom_nodes": 0,
+      "device_type": "chromium",
+      "viewport_width": 0,
+      "viewport_height": 0,
+      "is_mobile": false,
+      "environment": "ci"
+    },
+    {
+      "timestamp": "2025-03-01-19-00-59-679",
+      "test_name": "should test todo list with items",
+      "url_path": "/todomvc/",
+      "perf_threshold": 80,
+      "perf_score": 100,
+      "a11y_threshold": 90,
+      "a11y_score": 90,
+      "bp_threshold": 90,
+      "bp_score": 96,
+      "seo_threshold": 90,
+      "seo_score": 90,
+      "vital_lcp": 0,
+      "vital_fid": 0,
+      "vital_cls": 0,
+      "metric_fcp": 0,
+      "metric_si": 0,
+      "metric_tbt": 0,
+      "metric_tti": 0,
+      "metric_ttfb": 0,
+      "network_rtt": 0,
+      "network_latency": 0,
+      "resource_bytes": 0,
+      "resource_dom_nodes": 0,
+      "device_type": "chromium",
+      "viewport_width": 0,
+      "viewport_height": 0,
+      "is_mobile": false,
+      "environment": "ci"
+    },
+    {
+      "timestamp": "2025-03-01-19-00-59-679",
+      "test_name": "should test todo list with completed items",
+      "url_path": "/todomvc/",
+      "perf_threshold": 80,
+      "perf_score": 100,
+      "a11y_threshold": 90,
+      "a11y_score": 90,
+      "bp_threshold": 90,
+      "bp_score": 96,
+      "seo_threshold": 90,
+      "seo_score": 90,
+      "vital_lcp": 0,
+      "vital_fid": 0,
+      "vital_cls": 0,
+      "metric_fcp": 0,
+      "metric_si": 0,
+      "metric_tbt": 0,
+      "metric_tti": 0,
+      "metric_ttfb": 0,
+      "network_rtt": 0,
+      "network_latency": 0,
+      "resource_bytes": 0,
+      "resource_dom_nodes": 0,
+      "device_type": "chromium",
+      "viewport_width": 0,
+      "viewport_height": 0,
+      "is_mobile": false,
+      "environment": "ci"
+    },
+    {
+      "timestamp": "2025-03-01-19-00-59-679",
+      "test_name": "should test filtered views",
+      "url_path": "/todomvc/",
+      "perf_threshold": 80,
+      "perf_score": 100,
+      "a11y_threshold": 90,
+      "a11y_score": 90,
+      "bp_threshold": 90,
+      "bp_score": 96,
+      "seo_threshold": 90,
+      "seo_score": 90,
+      "vital_lcp": 0,
+      "vital_fid": 0,
+      "vital_cls": 0,
+      "metric_fcp": 0,
+      "metric_si": 0,
+      "metric_tbt": 0,
+      "metric_tti": 0,
+      "metric_ttfb": 0,
+      "network_rtt": 0,
+      "network_latency": 0,
+      "resource_bytes": 0,
+      "resource_dom_nodes": 0,
+      "device_type": "chromium",
+      "viewport_width": 0,
+      "viewport_height": 0,
+      "is_mobile": false,
+      "environment": "ci"
+    },
+    {
+      "timestamp": "2025-03-01-19-00-59-679",
+      "test_name": "should test filtered views",
+      "url_path": "/todomvc/",
+      "perf_threshold": 80,
+      "perf_score": 100,
+      "a11y_threshold": 90,
+      "a11y_score": 90,
+      "bp_threshold": 90,
+      "bp_score": 96,
+      "seo_threshold": 90,
+      "seo_score": 90,
+      "vital_lcp": 0,
+      "vital_fid": 0,
+      "vital_cls": 0,
+      "metric_fcp": 0,
+      "metric_si": 0,
+      "metric_tbt": 0,
+      "metric_tti": 0,
+      "metric_ttfb": 0,
+      "network_rtt": 0,
+      "network_latency": 0,
+      "resource_bytes": 0,
+      "resource_dom_nodes": 0,
+      "device_type": "chromium",
+      "viewport_width": 0,
+      "viewport_height": 0,
+      "is_mobile": false,
+      "environment": "ci"
+    },
+    {
+      "timestamp": "2025-03-01-19-00-59-679",
+      "test_name": "should test filtered views",
+      "url_path": "/todomvc/",
+      "perf_threshold": 80,
+      "perf_score": 100,
+      "a11y_threshold": 90,
+      "a11y_score": 90,
+      "bp_threshold": 90,
+      "bp_score": 96,
+      "seo_threshold": 90,
+      "seo_score": 90,
+      "vital_lcp": 0,
+      "vital_fid": 0,
+      "vital_cls": 0,
+      "metric_fcp": 0,
+      "metric_si": 0,
+      "metric_tbt": 0,
+      "metric_tti": 0,
+      "metric_ttfb": 0,
+      "network_rtt": 0,
+      "network_latency": 0,
+      "resource_bytes": 0,
+      "resource_dom_nodes": 0,
+      "device_type": "chromium",
+      "viewport_width": 0,
+      "viewport_height": 0,
+      "is_mobile": false,
+      "environment": "ci"
+    }
+  ],
+  "results": [
+    {
+      "testFile": "/Users/kamenorite/Repos/playwright_a11y_lighthouse/tests/demo-todo-app.spec.js",
+      "testName": "should test empty todo list",
+      "url": "https://demo.playwright.dev/todomvc/#/",
+      "lighthouseResults": {
+        "metrics": {
+          "performance": 100,
+          "accessibility": 90,
+          "best-practices": 96,
+          "seo": 90
+        },
+        "thresholdBreached": false,
+        "reportPaths": {
+          "html": "reports/lighthouse/lighthouse-2025-03-01-18-59-42-197.html",
+          "json": "reports/lighthouse/lighthouse-2025-03-01-18-59-42-197.json"
+        },
+        "scores": {
+          "performance": 0,
+          "accessibility": 0,
+          "bestPractices": 0,
+          "seo": 0,
+          "pwa": 0
+        },
+        "runs": 3
+      },
+      "axeResults": {
+        "metrics": {
+          "total_violations": 3,
+          "critical_violations": 0,
+          "serious_violations": 1,
+          "moderate_violations": 2,
+          "minor_violations": 0,
+          "passes": 20,
+          "total_tests": 23,
+          "has_critical_or_serious": true,
+          "has_moderate_or_minor": true
+        },
+        "violations": [
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "tags": [
+              "cat.color",
+              "wcag2aa",
+              "wcag143",
+              "TTv5",
+              "TT13.c",
+              "EN-301-549",
+              "EN-9.1.4.3",
+              "ACT"
+            ],
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=playwright",
+            "nodes": [
+              {
+                "any": [
+                  {
+                    "id": "color-contrast",
+                    "data": {
+                      "fgColor": "#ebd7d7",
+                      "bgColor": "#f5f5f5",
+                      "contrastRatio": 1.26,
+                      "fontSize": "75.0pt (100px)",
+                      "fontWeight": "normal",
+                      "messageKey": null,
+                      "expectedContrastRatio": "3:1"
+                    },
+                    "relatedNodes": [
+                      {
+                        "html": "<body>",
+                        "target": [
+                          "body"
+                        ]
+                      }
+                    ],
+                    "impact": "serious",
+                    "message": "Element has insufficient color contrast of 1.26 (foreground color: #ebd7d7, background color: #f5f5f5, font size: 75.0pt (100px), font weight: normal). Expected contrast ratio of 3:1"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<h1>todos</h1>",
+                "target": [
+                  "h1"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.26 (foreground color: #ebd7d7, background color: #f5f5f5, font size: 75.0pt (100px), font weight: normal). Expected contrast ratio of 3:1"
+              },
+              {
+                "any": [
+                  {
+                    "id": "color-contrast",
+                    "data": {
+                      "fgColor": "#bfbfbf",
+                      "bgColor": "#f5f5f5",
+                      "contrastRatio": 1.68,
+                      "fontSize": "7.5pt (10px)",
+                      "fontWeight": "normal",
+                      "messageKey": null,
+                      "expectedContrastRatio": "4.5:1"
+                    },
+                    "relatedNodes": [
+                      {
+                        "html": "<body>",
+                        "target": [
+                          "body"
+                        ]
+                      }
+                    ],
+                    "impact": "serious",
+                    "message": "Element has insufficient color contrast of 1.68 (foreground color: #bfbfbf, background color: #f5f5f5, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<p>Double-click to edit a todo</p>",
+                "target": [
+                  "p:nth-child(1)"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.68 (foreground color: #bfbfbf, background color: #f5f5f5, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "any": [
+                  {
+                    "id": "color-contrast",
+                    "data": {
+                      "fgColor": "#bfbfbf",
+                      "bgColor": "#f5f5f5",
+                      "contrastRatio": 1.68,
+                      "fontSize": "7.5pt (10px)",
+                      "fontWeight": "normal",
+                      "messageKey": null,
+                      "expectedContrastRatio": "4.5:1"
+                    },
+                    "relatedNodes": [
+                      {
+                        "html": "<body>",
+                        "target": [
+                          "body"
+                        ]
+                      }
+                    ],
+                    "impact": "serious",
+                    "message": "Element has insufficient color contrast of 1.68 (foreground color: #bfbfbf, background color: #f5f5f5, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<p>Created by <a href=\"http://github.com/remojansen/\">Remo H. Jansen</a></p>",
+                "target": [
+                  "p:nth-child(2)"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.68 (foreground color: #bfbfbf, background color: #f5f5f5, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "any": [
+                  {
+                    "id": "color-contrast",
+                    "data": {
+                      "fgColor": "#bfbfbf",
+                      "bgColor": "#f5f5f5",
+                      "contrastRatio": 1.68,
+                      "fontSize": "7.5pt (10px)",
+                      "fontWeight": "normal",
+                      "messageKey": null,
+                      "expectedContrastRatio": "4.5:1"
+                    },
+                    "relatedNodes": [
+                      {
+                        "html": "<body>",
+                        "target": [
+                          "body"
+                        ]
+                      }
+                    ],
+                    "impact": "serious",
+                    "message": "Element has insufficient color contrast of 1.68 (foreground color: #bfbfbf, background color: #f5f5f5, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<a href=\"http://github.com/remojansen/\">Remo H. Jansen</a>",
+                "target": [
+                  "a[href$=\"remojansen/\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.68 (foreground color: #bfbfbf, background color: #f5f5f5, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ]
+          },
+          {
+            "id": "landmark-one-main",
+            "impact": "moderate",
+            "tags": [
+              "cat.semantics",
+              "best-practice"
+            ],
+            "description": "Ensure the document has a main landmark",
+            "help": "Document should have one main landmark",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/landmark-one-main?application=playwright",
+            "nodes": [
+              {
+                "any": [],
+                "all": [
+                  {
+                    "id": "page-has-main",
+                    "data": null,
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Document does not have a main landmark"
+                  }
+                ],
+                "none": [],
+                "impact": "moderate",
+                "html": "<html lang=\"en\" data-framework=\"typescript\">",
+                "target": [
+                  "html"
+                ],
+                "failureSummary": "Fix all of the following:\n  Document does not have a main landmark"
+              }
+            ]
+          },
+          {
+            "id": "region",
+            "impact": "moderate",
+            "tags": [
+              "cat.keyboard",
+              "best-practice"
+            ],
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=playwright",
+            "nodes": [
+              {
+                "any": [
+                  {
+                    "id": "region",
+                    "data": {
+                      "isIframe": false
+                    },
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Some page content is not contained by landmarks"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "moderate",
+                "html": "<div style=\"background-color: #ffee5b; color: #444; padding: 0.75rem 1rem; text-align: center; border-bottom: 1px solid #cc0;\">This is just a demo of TodoMVC for testing, not the <a href=\"https://todomvc.com/\">real TodoMVC app.</a></div>",
+                "target": [
+                  "body > div"
+                ],
+                "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+              },
+              {
+                "any": [
+                  {
+                    "id": "region",
+                    "data": {
+                      "isIframe": false
+                    },
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Some page content is not contained by landmarks"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "moderate",
+                "html": "<section class=\"todoapp\"><div><header class=\"header\"><h1>todos</h1><input class=\"new-todo\" placeholder=\"What needs to be done?\"></header></div></section>",
+                "target": [
+                  "section"
+                ],
+                "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+              }
+            ]
+          }
+        ],
+        "reportPaths": {
+          "html": "reports/axe/axe-2025-03-01-18-59-29-494.html",
+          "json": "reports/axe/axe-2025-03-01-18-59-29-494.json"
+        }
+      },
+      "testInfo": {
+        "title": "should test empty todo list",
+        "url": "https://demo.playwright.dev/todomvc/#/",
+        "project": {
+          "grep": {},
+          "grepInvert": null,
+          "outputDir": "/Users/kamenorite/Repos/playwright_a11y_lighthouse/test-results",
+          "repeatEach": 1,
+          "retries": 0,
+          "metadata": {},
+          "name": "chromium",
+          "testDir": "/Users/kamenorite/Repos/playwright_a11y_lighthouse/tests",
+          "snapshotDir": "/Users/kamenorite/Repos/playwright_a11y_lighthouse/tests",
+          "testIgnore": [],
+          "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+          "timeout": 60000,
+          "use": {
+            "actionTimeout": 0,
+            "trace": "on-first-retry",
+            "testIdAttribute": "data-testid",
+            "screenshot": "only-on-failure",
+            "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.6943.16 Safari/537.36",
+            "viewport": {
+              "width": 1280,
+              "height": 720
+            },
+            "screen": {
+              "width": 1920,
+              "height": 1080
+            },
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "defaultBrowserType": "chromium",
+            "launchOptions": {
+              "args": [
+                "--remote-debugging-port=9222"
+              ]
+            }
+          },
+          "dependencies": [],
+          "__projectId": "chromium"
+        }
+      }
+    },
+    {
+      "testFile": "/Users/kamenorite/Repos/playwright_a11y_lighthouse/tests/demo-todo-app.spec.js",
+      "testName": "should test todo list with items",
+      "url": "https://demo.playwright.dev/todomvc/#/",
+      "lighthouseResults": {
+        "metrics": {
+          "performance": 100,
+          "accessibility": 90,
+          "best-practices": 96,
+          "seo": 90
+        },
+        "thresholdBreached": false,
+        "reportPaths": {
+          "html": "reports/lighthouse/lighthouse-2025-03-01-19-00-00-079.html",
+          "json": "reports/lighthouse/lighthouse-2025-03-01-19-00-00-079.json"
+        },
+        "scores": {
+          "performance": 0,
+          "accessibility": 0,
+          "bestPractices": 0,
+          "seo": 0,
+          "pwa": 0
+        },
+        "runs": 3
+      },
+      "axeResults": {
+        "metrics": {
+          "total_violations": 3,
+          "critical_violations": 0,
+          "serious_violations": 1,
+          "moderate_violations": 2,
+          "minor_violations": 0,
+          "passes": 29,
+          "total_tests": 32,
+          "has_critical_or_serious": true,
+          "has_moderate_or_minor": true
+        },
+        "violations": [
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "tags": [
+              "cat.color",
+              "wcag2aa",
+              "wcag143",
+              "TTv5",
+              "TT13.c",
+              "EN-301-549",
+              "EN-9.1.4.3",
+              "ACT"
+            ],
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=playwright",
+            "nodes": [
+              {
+                "any": [
+                  {
+                    "id": "color-contrast",
+                    "data": {
+                      "fgColor": "#ebd7d7",
+                      "bgColor": "#f5f5f5",
+                      "contrastRatio": 1.26,
+                      "fontSize": "75.0pt (100px)",
+                      "fontWeight": "normal",
+                      "messageKey": null,
+                      "expectedContrastRatio": "3:1"
+                    },
+                    "relatedNodes": [
+                      {
+                        "html": "<body>",
+                        "target": [
+                          "body"
+                        ]
+                      }
+                    ],
+                    "impact": "serious",
+                    "message": "Element has insufficient color contrast of 1.26 (foreground color: #ebd7d7, background color: #f5f5f5, font size: 75.0pt (100px), font weight: normal). Expected contrast ratio of 3:1"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<h1>todos</h1>",
+                "target": [
+                  "h1"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.26 (foreground color: #ebd7d7, background color: #f5f5f5, font size: 75.0pt (100px), font weight: normal). Expected contrast ratio of 3:1"
+              },
+              {
+                "any": [
+                  {
+                    "id": "color-contrast",
+                    "data": {
+                      "fgColor": "#777777",
+                      "bgColor": "#ffffff",
+                      "contrastRatio": 4.47,
+                      "fontSize": "10.5pt (14px)",
+                      "fontWeight": "normal",
+                      "messageKey": null,
+                      "expectedContrastRatio": "4.5:1"
+                    },
+                    "relatedNodes": [
+                      {
+                        "html": "<section class=\"todoapp\">",
+                        "target": [
+                          ".todoapp"
+                        ]
+                      }
+                    ],
+                    "impact": "serious",
+                    "message": "Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<a href=\"#/\" class=\"selected\">All</a>",
+                "target": [
+                  ".selected"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "any": [
+                  {
+                    "id": "color-contrast",
+                    "data": {
+                      "fgColor": "#777777",
+                      "bgColor": "#ffffff",
+                      "contrastRatio": 4.47,
+                      "fontSize": "10.5pt (14px)",
+                      "fontWeight": "normal",
+                      "messageKey": null,
+                      "expectedContrastRatio": "4.5:1"
+                    },
+                    "relatedNodes": [
+                      {
+                        "html": "<section class=\"todoapp\">",
+                        "target": [
+                          ".todoapp"
+                        ]
+                      }
+                    ],
+                    "impact": "serious",
+                    "message": "Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<a href=\"#/active\" class=\"\">Active</a>",
+                "target": [
+                  "a[href$=\"#/active\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "any": [
+                  {
+                    "id": "color-contrast",
+                    "data": {
+                      "fgColor": "#777777",
+                      "bgColor": "#ffffff",
+                      "contrastRatio": 4.47,
+                      "fontSize": "10.5pt (14px)",
+                      "fontWeight": "normal",
+                      "messageKey": null,
+                      "expectedContrastRatio": "4.5:1"
+                    },
+                    "relatedNodes": [
+                      {
+                        "html": "<section class=\"todoapp\">",
+                        "target": [
+                          ".todoapp"
+                        ]
+                      }
+                    ],
+                    "impact": "serious",
+                    "message": "Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<a href=\"#/completed\" class=\"\">Completed</a>",
+                "target": [
+                  "a[href$=\"#/completed\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "any": [
+                  {
+                    "id": "color-contrast",
+                    "data": {
+                      "fgColor": "#bfbfbf",
+                      "bgColor": "#f5f5f5",
+                      "contrastRatio": 1.68,
+                      "fontSize": "7.5pt (10px)",
+                      "fontWeight": "normal",
+                      "messageKey": null,
+                      "expectedContrastRatio": "4.5:1"
+                    },
+                    "relatedNodes": [
+                      {
+                        "html": "<body>",
+                        "target": [
+                          "body"
+                        ]
+                      }
+                    ],
+                    "impact": "serious",
+                    "message": "Element has insufficient color contrast of 1.68 (foreground color: #bfbfbf, background color: #f5f5f5, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<p>Double-click to edit a todo</p>",
+                "target": [
+                  "p:nth-child(1)"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.68 (foreground color: #bfbfbf, background color: #f5f5f5, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "any": [
+                  {
+                    "id": "color-contrast",
+                    "data": {
+                      "fgColor": "#bfbfbf",
+                      "bgColor": "#f5f5f5",
+                      "contrastRatio": 1.68,
+                      "fontSize": "7.5pt (10px)",
+                      "fontWeight": "normal",
+                      "messageKey": null,
+                      "expectedContrastRatio": "4.5:1"
+                    },
+                    "relatedNodes": [
+                      {
+                        "html": "<body>",
+                        "target": [
+                          "body"
+                        ]
+                      }
+                    ],
+                    "impact": "serious",
+                    "message": "Element has insufficient color contrast of 1.68 (foreground color: #bfbfbf, background color: #f5f5f5, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<p>Created by <a href=\"http://github.com/remojansen/\">Remo H. Jansen</a></p>",
+                "target": [
+                  "p:nth-child(2)"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.68 (foreground color: #bfbfbf, background color: #f5f5f5, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "any": [
+                  {
+                    "id": "color-contrast",
+                    "data": {
+                      "fgColor": "#bfbfbf",
+                      "bgColor": "#f5f5f5",
+                      "contrastRatio": 1.68,
+                      "fontSize": "7.5pt (10px)",
+                      "fontWeight": "normal",
+                      "messageKey": null,
+                      "expectedContrastRatio": "4.5:1"
+                    },
+                    "relatedNodes": [
+                      {
+                        "html": "<body>",
+                        "target": [
+                          "body"
+                        ]
+                      }
+                    ],
+                    "impact": "serious",
+                    "message": "Element has insufficient color contrast of 1.68 (foreground color: #bfbfbf, background color: #f5f5f5, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<a href=\"http://github.com/remojansen/\">Remo H. Jansen</a>",
+                "target": [
+                  "a[href$=\"remojansen/\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.68 (foreground color: #bfbfbf, background color: #f5f5f5, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ]
+          },
+          {
+            "id": "landmark-one-main",
+            "impact": "moderate",
+            "tags": [
+              "cat.semantics",
+              "best-practice"
+            ],
+            "description": "Ensure the document has a main landmark",
+            "help": "Document should have one main landmark",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/landmark-one-main?application=playwright",
+            "nodes": [
+              {
+                "any": [],
+                "all": [
+                  {
+                    "id": "page-has-main",
+                    "data": null,
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Document does not have a main landmark"
+                  }
+                ],
+                "none": [],
+                "impact": "moderate",
+                "html": "<html lang=\"en\" data-framework=\"typescript\">",
+                "target": [
+                  "html"
+                ],
+                "failureSummary": "Fix all of the following:\n  Document does not have a main landmark"
+              }
+            ]
+          },
+          {
+            "id": "region",
+            "impact": "moderate",
+            "tags": [
+              "cat.keyboard",
+              "best-practice"
+            ],
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=playwright",
+            "nodes": [
+              {
+                "any": [
+                  {
+                    "id": "region",
+                    "data": {
+                      "isIframe": false
+                    },
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Some page content is not contained by landmarks"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "moderate",
+                "html": "<div style=\"background-color: #ffee5b; color: #444; padding: 0.75rem 1rem; text-align: center; border-bottom: 1px solid #cc0;\">This is just a demo of TodoMVC for testing, not the <a href=\"https://todomvc.com/\">real TodoMVC app.</a></div>",
+                "target": [
+                  "body > div"
+                ],
+                "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+              },
+              {
+                "any": [
+                  {
+                    "id": "region",
+                    "data": {
+                      "isIframe": false
+                    },
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Some page content is not contained by landmarks"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "moderate",
+                "html": "<header class=\"header\"><h1>todos</h1><input class=\"new-todo\" placeholder=\"What needs to be done?\"></header>",
+                "target": [
+                  "header"
+                ],
+                "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+              },
+              {
+                "any": [
+                  {
+                    "id": "region",
+                    "data": {
+                      "isIframe": false
+                    },
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Some page content is not contained by landmarks"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "moderate",
+                "html": "<input id=\"toggle-all\" class=\"toggle-all\" type=\"checkbox\">",
+                "target": [
+                  "#toggle-all"
+                ],
+                "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+              },
+              {
+                "any": [
+                  {
+                    "id": "region",
+                    "data": {
+                      "isIframe": false
+                    },
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Some page content is not contained by landmarks"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "moderate",
+                "html": "<label for=\"toggle-all\">Mark all as complete</label>",
+                "target": [
+                  "label[for=\"toggle-all\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+              },
+              {
+                "any": [
+                  {
+                    "id": "region",
+                    "data": {
+                      "isIframe": false
+                    },
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Some page content is not contained by landmarks"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "moderate",
+                "html": "<input aria-label=\"Toggle Todo\" class=\"toggle\" type=\"checkbox\">",
+                "target": [
+                  "li[data-testid=\"todo-item\"]:nth-child(1) > .view > .toggle[aria-label=\"Toggle Todo\"][type=\"checkbox\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+              },
+              {
+                "any": [
+                  {
+                    "id": "region",
+                    "data": {
+                      "isIframe": false
+                    },
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Some page content is not contained by landmarks"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "moderate",
+                "html": "<label data-testid=\"todo-title\">buy some cheese</label>",
+                "target": [
+                  "li[data-testid=\"todo-item\"]:nth-child(1) > .view > label[data-testid=\"todo-title\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+              },
+              {
+                "any": [
+                  {
+                    "id": "region",
+                    "data": {
+                      "isIframe": false
+                    },
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Some page content is not contained by landmarks"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "moderate",
+                "html": "<input aria-label=\"Toggle Todo\" class=\"toggle\" type=\"checkbox\">",
+                "target": [
+                  "li[data-testid=\"todo-item\"]:nth-child(2) > .view > .toggle[aria-label=\"Toggle Todo\"][type=\"checkbox\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+              },
+              {
+                "any": [
+                  {
+                    "id": "region",
+                    "data": {
+                      "isIframe": false
+                    },
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Some page content is not contained by landmarks"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "moderate",
+                "html": "<label data-testid=\"todo-title\">feed the cat</label>",
+                "target": [
+                  "li[data-testid=\"todo-item\"]:nth-child(2) > .view > label[data-testid=\"todo-title\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+              },
+              {
+                "any": [
+                  {
+                    "id": "region",
+                    "data": {
+                      "isIframe": false
+                    },
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Some page content is not contained by landmarks"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "moderate",
+                "html": "<input aria-label=\"Toggle Todo\" class=\"toggle\" type=\"checkbox\">",
+                "target": [
+                  "li[data-testid=\"todo-item\"]:nth-child(3) > .view > .toggle[aria-label=\"Toggle Todo\"][type=\"checkbox\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+              },
+              {
+                "any": [
+                  {
+                    "id": "region",
+                    "data": {
+                      "isIframe": false
+                    },
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Some page content is not contained by landmarks"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "moderate",
+                "html": "<label data-testid=\"todo-title\">book a doctors appointment</label>",
+                "target": [
+                  "li[data-testid=\"todo-item\"]:nth-child(3) > .view > label[data-testid=\"todo-title\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+              },
+              {
+                "any": [
+                  {
+                    "id": "region",
+                    "data": {
+                      "isIframe": false
+                    },
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Some page content is not contained by landmarks"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "moderate",
+                "html": "<footer class=\"footer\"><span data-testid=\"todo-count\" class=\"todo-count\"><strong>3</strong> items left</span><ul class=\"filters\"><li><a href=\"#/\" class=\"selected\">All</a></li> <li><a href=\"#/active\" class=\"\">Active</a></li> <li><a href=\"#/completed\" class=\"\">Completed</a></li></ul></footer>",
+                "target": [
+                  ".footer"
+                ],
+                "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+              }
+            ]
+          }
+        ],
+        "reportPaths": {
+          "html": "reports/axe/axe-2025-03-01-18-59-48-163.html",
+          "json": "reports/axe/axe-2025-03-01-18-59-48-163.json"
+        }
+      },
+      "testInfo": {
+        "title": "should test todo list with items",
+        "url": "https://demo.playwright.dev/todomvc/#/",
+        "project": {
+          "grep": {},
+          "grepInvert": null,
+          "outputDir": "/Users/kamenorite/Repos/playwright_a11y_lighthouse/test-results",
+          "repeatEach": 1,
+          "retries": 0,
+          "metadata": {},
+          "name": "chromium",
+          "testDir": "/Users/kamenorite/Repos/playwright_a11y_lighthouse/tests",
+          "snapshotDir": "/Users/kamenorite/Repos/playwright_a11y_lighthouse/tests",
+          "testIgnore": [],
+          "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+          "timeout": 60000,
+          "use": {
+            "actionTimeout": 0,
+            "trace": "on-first-retry",
+            "testIdAttribute": "data-testid",
+            "screenshot": "only-on-failure",
+            "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.6943.16 Safari/537.36",
+            "viewport": {
+              "width": 1280,
+              "height": 720
+            },
+            "screen": {
+              "width": 1920,
+              "height": 1080
+            },
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "defaultBrowserType": "chromium",
+            "launchOptions": {
+              "args": [
+                "--remote-debugging-port=9222"
+              ]
+            }
+          },
+          "dependencies": [],
+          "__projectId": "chromium"
+        }
+      }
+    },
+    {
+      "testFile": "/Users/kamenorite/Repos/playwright_a11y_lighthouse/tests/demo-todo-app.spec.js",
+      "testName": "should test todo list with completed items",
+      "url": "https://demo.playwright.dev/todomvc/#/",
+      "lighthouseResults": {
+        "metrics": {
+          "performance": 100,
+          "accessibility": 90,
+          "best-practices": 96,
+          "seo": 90
+        },
+        "thresholdBreached": false,
+        "reportPaths": {
+          "html": "reports/lighthouse/lighthouse-2025-03-01-19-00-18-086.html",
+          "json": "reports/lighthouse/lighthouse-2025-03-01-19-00-18-086.json"
+        },
+        "scores": {
+          "performance": 0,
+          "accessibility": 0,
+          "bestPractices": 0,
+          "seo": 0,
+          "pwa": 0
+        },
+        "runs": 3
+      },
+      "axeResults": {
+        "metrics": {
+          "total_violations": 3,
+          "critical_violations": 0,
+          "serious_violations": 1,
+          "moderate_violations": 2,
+          "minor_violations": 0,
+          "passes": 30,
+          "total_tests": 33,
+          "has_critical_or_serious": true,
+          "has_moderate_or_minor": true
+        },
+        "violations": [
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "tags": [
+              "cat.color",
+              "wcag2aa",
+              "wcag143",
+              "TTv5",
+              "TT13.c",
+              "EN-301-549",
+              "EN-9.1.4.3",
+              "ACT"
+            ],
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=playwright",
+            "nodes": [
+              {
+                "any": [
+                  {
+                    "id": "color-contrast",
+                    "data": {
+                      "fgColor": "#ebd7d7",
+                      "bgColor": "#f5f5f5",
+                      "contrastRatio": 1.26,
+                      "fontSize": "75.0pt (100px)",
+                      "fontWeight": "normal",
+                      "messageKey": null,
+                      "expectedContrastRatio": "3:1"
+                    },
+                    "relatedNodes": [
+                      {
+                        "html": "<body>",
+                        "target": [
+                          "body"
+                        ]
+                      }
+                    ],
+                    "impact": "serious",
+                    "message": "Element has insufficient color contrast of 1.26 (foreground color: #ebd7d7, background color: #f5f5f5, font size: 75.0pt (100px), font weight: normal). Expected contrast ratio of 3:1"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<h1>todos</h1>",
+                "target": [
+                  "h1"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.26 (foreground color: #ebd7d7, background color: #f5f5f5, font size: 75.0pt (100px), font weight: normal). Expected contrast ratio of 3:1"
+              },
+              {
+                "any": [
+                  {
+                    "id": "color-contrast",
+                    "data": {
+                      "fgColor": "#777777",
+                      "bgColor": "#ffffff",
+                      "contrastRatio": 4.47,
+                      "fontSize": "10.5pt (14px)",
+                      "fontWeight": "normal",
+                      "messageKey": null,
+                      "expectedContrastRatio": "4.5:1"
+                    },
+                    "relatedNodes": [
+                      {
+                        "html": "<section class=\"todoapp\">",
+                        "target": [
+                          ".todoapp"
+                        ]
+                      }
+                    ],
+                    "impact": "serious",
+                    "message": "Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<a href=\"#/\" class=\"selected\">All</a>",
+                "target": [
+                  ".selected"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "any": [
+                  {
+                    "id": "color-contrast",
+                    "data": {
+                      "fgColor": "#777777",
+                      "bgColor": "#ffffff",
+                      "contrastRatio": 4.47,
+                      "fontSize": "10.5pt (14px)",
+                      "fontWeight": "normal",
+                      "messageKey": null,
+                      "expectedContrastRatio": "4.5:1"
+                    },
+                    "relatedNodes": [
+                      {
+                        "html": "<section class=\"todoapp\">",
+                        "target": [
+                          ".todoapp"
+                        ]
+                      }
+                    ],
+                    "impact": "serious",
+                    "message": "Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<a href=\"#/active\" class=\"\">Active</a>",
+                "target": [
+                  "a[href$=\"#/active\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "any": [
+                  {
+                    "id": "color-contrast",
+                    "data": {
+                      "fgColor": "#777777",
+                      "bgColor": "#ffffff",
+                      "contrastRatio": 4.47,
+                      "fontSize": "10.5pt (14px)",
+                      "fontWeight": "normal",
+                      "messageKey": null,
+                      "expectedContrastRatio": "4.5:1"
+                    },
+                    "relatedNodes": [
+                      {
+                        "html": "<section class=\"todoapp\">",
+                        "target": [
+                          ".todoapp"
+                        ]
+                      }
+                    ],
+                    "impact": "serious",
+                    "message": "Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<a href=\"#/completed\" class=\"\">Completed</a>",
+                "target": [
+                  "a[href$=\"#/completed\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "any": [
+                  {
+                    "id": "color-contrast",
+                    "data": {
+                      "fgColor": "#777777",
+                      "bgColor": "#ffffff",
+                      "contrastRatio": 4.47,
+                      "fontSize": "10.5pt (14px)",
+                      "fontWeight": "normal",
+                      "messageKey": null,
+                      "expectedContrastRatio": "4.5:1"
+                    },
+                    "relatedNodes": [
+                      {
+                        "html": "<section class=\"todoapp\">",
+                        "target": [
+                          ".todoapp"
+                        ]
+                      }
+                    ],
+                    "impact": "serious",
+                    "message": "Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<button class=\"clear-completed\">Clear completed</button>",
+                "target": [
+                  ".clear-completed"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "any": [
+                  {
+                    "id": "color-contrast",
+                    "data": {
+                      "fgColor": "#bfbfbf",
+                      "bgColor": "#f5f5f5",
+                      "contrastRatio": 1.68,
+                      "fontSize": "7.5pt (10px)",
+                      "fontWeight": "normal",
+                      "messageKey": null,
+                      "expectedContrastRatio": "4.5:1"
+                    },
+                    "relatedNodes": [
+                      {
+                        "html": "<body>",
+                        "target": [
+                          "body"
+                        ]
+                      }
+                    ],
+                    "impact": "serious",
+                    "message": "Element has insufficient color contrast of 1.68 (foreground color: #bfbfbf, background color: #f5f5f5, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<p>Double-click to edit a todo</p>",
+                "target": [
+                  "p:nth-child(1)"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.68 (foreground color: #bfbfbf, background color: #f5f5f5, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "any": [
+                  {
+                    "id": "color-contrast",
+                    "data": {
+                      "fgColor": "#bfbfbf",
+                      "bgColor": "#f5f5f5",
+                      "contrastRatio": 1.68,
+                      "fontSize": "7.5pt (10px)",
+                      "fontWeight": "normal",
+                      "messageKey": null,
+                      "expectedContrastRatio": "4.5:1"
+                    },
+                    "relatedNodes": [
+                      {
+                        "html": "<body>",
+                        "target": [
+                          "body"
+                        ]
+                      }
+                    ],
+                    "impact": "serious",
+                    "message": "Element has insufficient color contrast of 1.68 (foreground color: #bfbfbf, background color: #f5f5f5, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<p>Created by <a href=\"http://github.com/remojansen/\">Remo H. Jansen</a></p>",
+                "target": [
+                  "p:nth-child(2)"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.68 (foreground color: #bfbfbf, background color: #f5f5f5, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "any": [
+                  {
+                    "id": "color-contrast",
+                    "data": {
+                      "fgColor": "#bfbfbf",
+                      "bgColor": "#f5f5f5",
+                      "contrastRatio": 1.68,
+                      "fontSize": "7.5pt (10px)",
+                      "fontWeight": "normal",
+                      "messageKey": null,
+                      "expectedContrastRatio": "4.5:1"
+                    },
+                    "relatedNodes": [
+                      {
+                        "html": "<body>",
+                        "target": [
+                          "body"
+                        ]
+                      }
+                    ],
+                    "impact": "serious",
+                    "message": "Element has insufficient color contrast of 1.68 (foreground color: #bfbfbf, background color: #f5f5f5, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<a href=\"http://github.com/remojansen/\">Remo H. Jansen</a>",
+                "target": [
+                  "a[href$=\"remojansen/\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.68 (foreground color: #bfbfbf, background color: #f5f5f5, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ]
+          },
+          {
+            "id": "landmark-one-main",
+            "impact": "moderate",
+            "tags": [
+              "cat.semantics",
+              "best-practice"
+            ],
+            "description": "Ensure the document has a main landmark",
+            "help": "Document should have one main landmark",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/landmark-one-main?application=playwright",
+            "nodes": [
+              {
+                "any": [],
+                "all": [
+                  {
+                    "id": "page-has-main",
+                    "data": null,
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Document does not have a main landmark"
+                  }
+                ],
+                "none": [],
+                "impact": "moderate",
+                "html": "<html lang=\"en\" data-framework=\"typescript\">",
+                "target": [
+                  "html"
+                ],
+                "failureSummary": "Fix all of the following:\n  Document does not have a main landmark"
+              }
+            ]
+          },
+          {
+            "id": "region",
+            "impact": "moderate",
+            "tags": [
+              "cat.keyboard",
+              "best-practice"
+            ],
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=playwright",
+            "nodes": [
+              {
+                "any": [
+                  {
+                    "id": "region",
+                    "data": {
+                      "isIframe": false
+                    },
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Some page content is not contained by landmarks"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "moderate",
+                "html": "<div style=\"background-color: #ffee5b; color: #444; padding: 0.75rem 1rem; text-align: center; border-bottom: 1px solid #cc0;\">This is just a demo of TodoMVC for testing, not the <a href=\"https://todomvc.com/\">real TodoMVC app.</a></div>",
+                "target": [
+                  "body > div"
+                ],
+                "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+              },
+              {
+                "any": [
+                  {
+                    "id": "region",
+                    "data": {
+                      "isIframe": false
+                    },
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Some page content is not contained by landmarks"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "moderate",
+                "html": "<header class=\"header\"><h1>todos</h1><input class=\"new-todo\" placeholder=\"What needs to be done?\"></header>",
+                "target": [
+                  "header"
+                ],
+                "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+              },
+              {
+                "any": [
+                  {
+                    "id": "region",
+                    "data": {
+                      "isIframe": false
+                    },
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Some page content is not contained by landmarks"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "moderate",
+                "html": "<input id=\"toggle-all\" class=\"toggle-all\" type=\"checkbox\">",
+                "target": [
+                  "#toggle-all"
+                ],
+                "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+              },
+              {
+                "any": [
+                  {
+                    "id": "region",
+                    "data": {
+                      "isIframe": false
+                    },
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Some page content is not contained by landmarks"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "moderate",
+                "html": "<label for=\"toggle-all\">Mark all as complete</label>",
+                "target": [
+                  "label[for=\"toggle-all\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+              },
+              {
+                "any": [
+                  {
+                    "id": "region",
+                    "data": {
+                      "isIframe": false
+                    },
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Some page content is not contained by landmarks"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "moderate",
+                "html": "<input aria-label=\"Toggle Todo\" class=\"toggle\" type=\"checkbox\">",
+                "target": [
+                  ".completed[data-testid=\"todo-item\"]:nth-child(1) > .view > .toggle[aria-label=\"Toggle Todo\"][type=\"checkbox\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+              },
+              {
+                "any": [
+                  {
+                    "id": "region",
+                    "data": {
+                      "isIframe": false
+                    },
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Some page content is not contained by landmarks"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "moderate",
+                "html": "<label data-testid=\"todo-title\">buy some cheese</label>",
+                "target": [
+                  ".completed[data-testid=\"todo-item\"]:nth-child(1) > .view > label[data-testid=\"todo-title\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+              },
+              {
+                "any": [
+                  {
+                    "id": "region",
+                    "data": {
+                      "isIframe": false
+                    },
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Some page content is not contained by landmarks"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "moderate",
+                "html": "<input aria-label=\"Toggle Todo\" class=\"toggle\" type=\"checkbox\">",
+                "target": [
+                  ".completed[data-testid=\"todo-item\"]:nth-child(2) > .view > .toggle[aria-label=\"Toggle Todo\"][type=\"checkbox\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+              },
+              {
+                "any": [
+                  {
+                    "id": "region",
+                    "data": {
+                      "isIframe": false
+                    },
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Some page content is not contained by landmarks"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "moderate",
+                "html": "<label data-testid=\"todo-title\">feed the cat</label>",
+                "target": [
+                  ".completed[data-testid=\"todo-item\"]:nth-child(2) > .view > label[data-testid=\"todo-title\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+              },
+              {
+                "any": [
+                  {
+                    "id": "region",
+                    "data": {
+                      "isIframe": false
+                    },
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Some page content is not contained by landmarks"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "moderate",
+                "html": "<input aria-label=\"Toggle Todo\" class=\"toggle\" type=\"checkbox\">",
+                "target": [
+                  "li[data-testid=\"todo-item\"]:nth-child(3) > .view > .toggle[aria-label=\"Toggle Todo\"][type=\"checkbox\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+              },
+              {
+                "any": [
+                  {
+                    "id": "region",
+                    "data": {
+                      "isIframe": false
+                    },
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Some page content is not contained by landmarks"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "moderate",
+                "html": "<label data-testid=\"todo-title\">book a doctors appointment</label>",
+                "target": [
+                  "li[data-testid=\"todo-item\"]:nth-child(3) > .view > label[data-testid=\"todo-title\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+              },
+              {
+                "any": [
+                  {
+                    "id": "region",
+                    "data": {
+                      "isIframe": false
+                    },
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Some page content is not contained by landmarks"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "moderate",
+                "html": "<span data-testid=\"todo-count\" class=\"todo-count\"><strong>1</strong> item left</span>",
+                "target": [
+                  "span"
+                ],
+                "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+              },
+              {
+                "any": [
+                  {
+                    "id": "region",
+                    "data": {
+                      "isIframe": false
+                    },
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Some page content is not contained by landmarks"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "moderate",
+                "html": "<ul class=\"filters\"><li><a href=\"#/\" class=\"selected\">All</a></li> <li><a href=\"#/active\" class=\"\">Active</a></li> <li><a href=\"#/completed\" class=\"\">Completed</a></li></ul>",
+                "target": [
+                  ".filters"
+                ],
+                "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+              }
+            ]
+          }
+        ],
+        "reportPaths": {
+          "html": "reports/axe/axe-2025-03-01-19-00-06-241.html",
+          "json": "reports/axe/axe-2025-03-01-19-00-06-241.json"
+        }
+      },
+      "testInfo": {
+        "title": "should test todo list with completed items",
+        "url": "https://demo.playwright.dev/todomvc/#/",
+        "project": {
+          "grep": {},
+          "grepInvert": null,
+          "outputDir": "/Users/kamenorite/Repos/playwright_a11y_lighthouse/test-results",
+          "repeatEach": 1,
+          "retries": 0,
+          "metadata": {},
+          "name": "chromium",
+          "testDir": "/Users/kamenorite/Repos/playwright_a11y_lighthouse/tests",
+          "snapshotDir": "/Users/kamenorite/Repos/playwright_a11y_lighthouse/tests",
+          "testIgnore": [],
+          "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+          "timeout": 60000,
+          "use": {
+            "actionTimeout": 0,
+            "trace": "on-first-retry",
+            "testIdAttribute": "data-testid",
+            "screenshot": "only-on-failure",
+            "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.6943.16 Safari/537.36",
+            "viewport": {
+              "width": 1280,
+              "height": 720
+            },
+            "screen": {
+              "width": 1920,
+              "height": 1080
+            },
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "defaultBrowserType": "chromium",
+            "launchOptions": {
+              "args": [
+                "--remote-debugging-port=9222"
+              ]
+            }
+          },
+          "dependencies": [],
+          "__projectId": "chromium"
+        }
+      }
+    },
+    {
+      "testFile": "/Users/kamenorite/Repos/playwright_a11y_lighthouse/tests/demo-todo-app.spec.js",
+      "testName": "should test filtered views",
+      "url": "https://demo.playwright.dev/todomvc/#/active",
+      "lighthouseResults": {
+        "metrics": {
+          "performance": 100,
+          "accessibility": 90,
+          "best-practices": 96,
+          "seo": 90
+        },
+        "thresholdBreached": false,
+        "reportPaths": {
+          "html": "reports/lighthouse/lighthouse-2025-03-01-19-00-35-897.html",
+          "json": "reports/lighthouse/lighthouse-2025-03-01-19-00-35-897.json"
+        },
+        "scores": {
+          "performance": 0,
+          "accessibility": 0,
+          "bestPractices": 0,
+          "seo": 0,
+          "pwa": 0
+        },
+        "runs": 3
+      },
+      "axeResults": {
+        "metrics": {
+          "total_violations": 3,
+          "critical_violations": 0,
+          "serious_violations": 1,
+          "moderate_violations": 2,
+          "minor_violations": 0,
+          "passes": 30,
+          "total_tests": 33,
+          "has_critical_or_serious": true,
+          "has_moderate_or_minor": true
+        },
+        "violations": [
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "tags": [
+              "cat.color",
+              "wcag2aa",
+              "wcag143",
+              "TTv5",
+              "TT13.c",
+              "EN-301-549",
+              "EN-9.1.4.3",
+              "ACT"
+            ],
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=playwright",
+            "nodes": [
+              {
+                "any": [
+                  {
+                    "id": "color-contrast",
+                    "data": {
+                      "fgColor": "#ebd7d7",
+                      "bgColor": "#f5f5f5",
+                      "contrastRatio": 1.26,
+                      "fontSize": "75.0pt (100px)",
+                      "fontWeight": "normal",
+                      "messageKey": null,
+                      "expectedContrastRatio": "3:1"
+                    },
+                    "relatedNodes": [
+                      {
+                        "html": "<body>",
+                        "target": [
+                          "body"
+                        ]
+                      }
+                    ],
+                    "impact": "serious",
+                    "message": "Element has insufficient color contrast of 1.26 (foreground color: #ebd7d7, background color: #f5f5f5, font size: 75.0pt (100px), font weight: normal). Expected contrast ratio of 3:1"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<h1>todos</h1>",
+                "target": [
+                  "h1"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.26 (foreground color: #ebd7d7, background color: #f5f5f5, font size: 75.0pt (100px), font weight: normal). Expected contrast ratio of 3:1"
+              },
+              {
+                "any": [
+                  {
+                    "id": "color-contrast",
+                    "data": {
+                      "fgColor": "#777777",
+                      "bgColor": "#ffffff",
+                      "contrastRatio": 4.47,
+                      "fontSize": "10.5pt (14px)",
+                      "fontWeight": "normal",
+                      "messageKey": null,
+                      "expectedContrastRatio": "4.5:1"
+                    },
+                    "relatedNodes": [
+                      {
+                        "html": "<section class=\"todoapp\">",
+                        "target": [
+                          ".todoapp"
+                        ]
+                      }
+                    ],
+                    "impact": "serious",
+                    "message": "Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<a href=\"#/\" class=\"\">All</a>",
+                "target": [
+                  "a[href=\"#/\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "any": [
+                  {
+                    "id": "color-contrast",
+                    "data": {
+                      "fgColor": "#777777",
+                      "bgColor": "#ffffff",
+                      "contrastRatio": 4.47,
+                      "fontSize": "10.5pt (14px)",
+                      "fontWeight": "normal",
+                      "messageKey": null,
+                      "expectedContrastRatio": "4.5:1"
+                    },
+                    "relatedNodes": [
+                      {
+                        "html": "<section class=\"todoapp\">",
+                        "target": [
+                          ".todoapp"
+                        ]
+                      }
+                    ],
+                    "impact": "serious",
+                    "message": "Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<a href=\"#/active\" class=\"selected\">Active</a>",
+                "target": [
+                  ".selected"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "any": [
+                  {
+                    "id": "color-contrast",
+                    "data": {
+                      "fgColor": "#777777",
+                      "bgColor": "#ffffff",
+                      "contrastRatio": 4.47,
+                      "fontSize": "10.5pt (14px)",
+                      "fontWeight": "normal",
+                      "messageKey": null,
+                      "expectedContrastRatio": "4.5:1"
+                    },
+                    "relatedNodes": [
+                      {
+                        "html": "<section class=\"todoapp\">",
+                        "target": [
+                          ".todoapp"
+                        ]
+                      }
+                    ],
+                    "impact": "serious",
+                    "message": "Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<a href=\"#/completed\" class=\"\">Completed</a>",
+                "target": [
+                  "a[href$=\"#/completed\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "any": [
+                  {
+                    "id": "color-contrast",
+                    "data": {
+                      "fgColor": "#777777",
+                      "bgColor": "#ffffff",
+                      "contrastRatio": 4.47,
+                      "fontSize": "10.5pt (14px)",
+                      "fontWeight": "normal",
+                      "messageKey": null,
+                      "expectedContrastRatio": "4.5:1"
+                    },
+                    "relatedNodes": [
+                      {
+                        "html": "<section class=\"todoapp\">",
+                        "target": [
+                          ".todoapp"
+                        ]
+                      }
+                    ],
+                    "impact": "serious",
+                    "message": "Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<button class=\"clear-completed\">Clear completed</button>",
+                "target": [
+                  ".clear-completed"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "any": [
+                  {
+                    "id": "color-contrast",
+                    "data": {
+                      "fgColor": "#bfbfbf",
+                      "bgColor": "#f5f5f5",
+                      "contrastRatio": 1.68,
+                      "fontSize": "7.5pt (10px)",
+                      "fontWeight": "normal",
+                      "messageKey": null,
+                      "expectedContrastRatio": "4.5:1"
+                    },
+                    "relatedNodes": [
+                      {
+                        "html": "<body>",
+                        "target": [
+                          "body"
+                        ]
+                      }
+                    ],
+                    "impact": "serious",
+                    "message": "Element has insufficient color contrast of 1.68 (foreground color: #bfbfbf, background color: #f5f5f5, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<p>Double-click to edit a todo</p>",
+                "target": [
+                  "p:nth-child(1)"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.68 (foreground color: #bfbfbf, background color: #f5f5f5, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "any": [
+                  {
+                    "id": "color-contrast",
+                    "data": {
+                      "fgColor": "#bfbfbf",
+                      "bgColor": "#f5f5f5",
+                      "contrastRatio": 1.68,
+                      "fontSize": "7.5pt (10px)",
+                      "fontWeight": "normal",
+                      "messageKey": null,
+                      "expectedContrastRatio": "4.5:1"
+                    },
+                    "relatedNodes": [
+                      {
+                        "html": "<body>",
+                        "target": [
+                          "body"
+                        ]
+                      }
+                    ],
+                    "impact": "serious",
+                    "message": "Element has insufficient color contrast of 1.68 (foreground color: #bfbfbf, background color: #f5f5f5, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<p>Created by <a href=\"http://github.com/remojansen/\">Remo H. Jansen</a></p>",
+                "target": [
+                  "p:nth-child(2)"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.68 (foreground color: #bfbfbf, background color: #f5f5f5, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "any": [
+                  {
+                    "id": "color-contrast",
+                    "data": {
+                      "fgColor": "#bfbfbf",
+                      "bgColor": "#f5f5f5",
+                      "contrastRatio": 1.68,
+                      "fontSize": "7.5pt (10px)",
+                      "fontWeight": "normal",
+                      "messageKey": null,
+                      "expectedContrastRatio": "4.5:1"
+                    },
+                    "relatedNodes": [
+                      {
+                        "html": "<body>",
+                        "target": [
+                          "body"
+                        ]
+                      }
+                    ],
+                    "impact": "serious",
+                    "message": "Element has insufficient color contrast of 1.68 (foreground color: #bfbfbf, background color: #f5f5f5, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<a href=\"http://github.com/remojansen/\">Remo H. Jansen</a>",
+                "target": [
+                  "a[href$=\"remojansen/\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.68 (foreground color: #bfbfbf, background color: #f5f5f5, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ]
+          },
+          {
+            "id": "landmark-one-main",
+            "impact": "moderate",
+            "tags": [
+              "cat.semantics",
+              "best-practice"
+            ],
+            "description": "Ensure the document has a main landmark",
+            "help": "Document should have one main landmark",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/landmark-one-main?application=playwright",
+            "nodes": [
+              {
+                "any": [],
+                "all": [
+                  {
+                    "id": "page-has-main",
+                    "data": null,
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Document does not have a main landmark"
+                  }
+                ],
+                "none": [],
+                "impact": "moderate",
+                "html": "<html lang=\"en\" data-framework=\"typescript\">",
+                "target": [
+                  "html"
+                ],
+                "failureSummary": "Fix all of the following:\n  Document does not have a main landmark"
+              }
+            ]
+          },
+          {
+            "id": "region",
+            "impact": "moderate",
+            "tags": [
+              "cat.keyboard",
+              "best-practice"
+            ],
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=playwright",
+            "nodes": [
+              {
+                "any": [
+                  {
+                    "id": "region",
+                    "data": {
+                      "isIframe": false
+                    },
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Some page content is not contained by landmarks"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "moderate",
+                "html": "<div style=\"background-color: #ffee5b; color: #444; padding: 0.75rem 1rem; text-align: center; border-bottom: 1px solid #cc0;\">This is just a demo of TodoMVC for testing, not the <a href=\"https://todomvc.com/\">real TodoMVC app.</a></div>",
+                "target": [
+                  "body > div"
+                ],
+                "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+              },
+              {
+                "any": [
+                  {
+                    "id": "region",
+                    "data": {
+                      "isIframe": false
+                    },
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Some page content is not contained by landmarks"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "moderate",
+                "html": "<header class=\"header\"><h1>todos</h1><input class=\"new-todo\" placeholder=\"What needs to be done?\"></header>",
+                "target": [
+                  "header"
+                ],
+                "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+              },
+              {
+                "any": [
+                  {
+                    "id": "region",
+                    "data": {
+                      "isIframe": false
+                    },
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Some page content is not contained by landmarks"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "moderate",
+                "html": "<input id=\"toggle-all\" class=\"toggle-all\" type=\"checkbox\">",
+                "target": [
+                  "#toggle-all"
+                ],
+                "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+              },
+              {
+                "any": [
+                  {
+                    "id": "region",
+                    "data": {
+                      "isIframe": false
+                    },
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Some page content is not contained by landmarks"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "moderate",
+                "html": "<label for=\"toggle-all\">Mark all as complete</label>",
+                "target": [
+                  "label[for=\"toggle-all\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+              },
+              {
+                "any": [
+                  {
+                    "id": "region",
+                    "data": {
+                      "isIframe": false
+                    },
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Some page content is not contained by landmarks"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "moderate",
+                "html": "<input aria-label=\"Toggle Todo\" class=\"toggle\" type=\"checkbox\">",
+                "target": [
+                  "li[data-testid=\"todo-item\"]:nth-child(1) > .view > .toggle[aria-label=\"Toggle Todo\"][type=\"checkbox\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+              },
+              {
+                "any": [
+                  {
+                    "id": "region",
+                    "data": {
+                      "isIframe": false
+                    },
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Some page content is not contained by landmarks"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "moderate",
+                "html": "<label data-testid=\"todo-title\">feed the cat</label>",
+                "target": [
+                  "li[data-testid=\"todo-item\"]:nth-child(1) > .view > label[data-testid=\"todo-title\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+              },
+              {
+                "any": [
+                  {
+                    "id": "region",
+                    "data": {
+                      "isIframe": false
+                    },
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Some page content is not contained by landmarks"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "moderate",
+                "html": "<input aria-label=\"Toggle Todo\" class=\"toggle\" type=\"checkbox\">",
+                "target": [
+                  "li[data-testid=\"todo-item\"]:nth-child(2) > .view > .toggle[aria-label=\"Toggle Todo\"][type=\"checkbox\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+              },
+              {
+                "any": [
+                  {
+                    "id": "region",
+                    "data": {
+                      "isIframe": false
+                    },
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Some page content is not contained by landmarks"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "moderate",
+                "html": "<label data-testid=\"todo-title\">book a doctors appointment</label>",
+                "target": [
+                  "li[data-testid=\"todo-item\"]:nth-child(2) > .view > label[data-testid=\"todo-title\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+              },
+              {
+                "any": [
+                  {
+                    "id": "region",
+                    "data": {
+                      "isIframe": false
+                    },
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Some page content is not contained by landmarks"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "moderate",
+                "html": "<span data-testid=\"todo-count\" class=\"todo-count\"><strong>2</strong> items left</span>",
+                "target": [
+                  "span"
+                ],
+                "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+              },
+              {
+                "any": [
+                  {
+                    "id": "region",
+                    "data": {
+                      "isIframe": false
+                    },
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Some page content is not contained by landmarks"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "moderate",
+                "html": "<ul class=\"filters\"><li><a href=\"#/\" class=\"\">All</a></li> <li><a href=\"#/active\" class=\"selected\">Active</a></li> <li><a href=\"#/completed\" class=\"\">Completed</a></li></ul>",
+                "target": [
+                  ".filters"
+                ],
+                "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+              }
+            ]
+          }
+        ],
+        "reportPaths": {
+          "html": "reports/axe/axe-2025-03-01-19-00-24-102.html",
+          "json": "reports/axe/axe-2025-03-01-19-00-24-102.json"
+        }
+      },
+      "testInfo": {
+        "title": "should test filtered views",
+        "url": "https://demo.playwright.dev/todomvc/#/active",
+        "project": {
+          "grep": {},
+          "grepInvert": null,
+          "outputDir": "/Users/kamenorite/Repos/playwright_a11y_lighthouse/test-results",
+          "repeatEach": 1,
+          "retries": 0,
+          "metadata": {},
+          "name": "chromium",
+          "testDir": "/Users/kamenorite/Repos/playwright_a11y_lighthouse/tests",
+          "snapshotDir": "/Users/kamenorite/Repos/playwright_a11y_lighthouse/tests",
+          "testIgnore": [],
+          "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+          "timeout": 60000,
+          "use": {
+            "actionTimeout": 0,
+            "trace": "on-first-retry",
+            "testIdAttribute": "data-testid",
+            "screenshot": "only-on-failure",
+            "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.6943.16 Safari/537.36",
+            "viewport": {
+              "width": 1280,
+              "height": 720
+            },
+            "screen": {
+              "width": 1920,
+              "height": 1080
+            },
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "defaultBrowserType": "chromium",
+            "launchOptions": {
+              "args": [
+                "--remote-debugging-port=9222"
+              ]
+            }
+          },
+          "dependencies": [],
+          "__projectId": "chromium"
+        }
+      }
+    },
+    {
+      "testFile": "/Users/kamenorite/Repos/playwright_a11y_lighthouse/tests/demo-todo-app.spec.js",
+      "testName": "should test filtered views",
+      "url": "https://demo.playwright.dev/todomvc/#/completed",
+      "lighthouseResults": {
+        "metrics": {
+          "performance": 100,
+          "accessibility": 90,
+          "best-practices": 96,
+          "seo": 90
+        },
+        "thresholdBreached": false,
+        "reportPaths": {
+          "html": "reports/lighthouse/lighthouse-2025-03-01-19-00-52-950.html",
+          "json": "reports/lighthouse/lighthouse-2025-03-01-19-00-52-950.json"
+        },
+        "scores": {
+          "performance": 0,
+          "accessibility": 0,
+          "bestPractices": 0,
+          "seo": 0,
+          "pwa": 0
+        },
+        "runs": 3
+      },
+      "axeResults": {
+        "metrics": {
+          "total_violations": 3,
+          "critical_violations": 0,
+          "serious_violations": 1,
+          "moderate_violations": 2,
+          "minor_violations": 0,
+          "passes": 30,
+          "total_tests": 33,
+          "has_critical_or_serious": true,
+          "has_moderate_or_minor": true
+        },
+        "violations": [
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "tags": [
+              "cat.color",
+              "wcag2aa",
+              "wcag143",
+              "TTv5",
+              "TT13.c",
+              "EN-301-549",
+              "EN-9.1.4.3",
+              "ACT"
+            ],
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=playwright",
+            "nodes": [
+              {
+                "any": [
+                  {
+                    "id": "color-contrast",
+                    "data": {
+                      "fgColor": "#ebd7d7",
+                      "bgColor": "#f5f5f5",
+                      "contrastRatio": 1.26,
+                      "fontSize": "75.0pt (100px)",
+                      "fontWeight": "normal",
+                      "messageKey": null,
+                      "expectedContrastRatio": "3:1"
+                    },
+                    "relatedNodes": [
+                      {
+                        "html": "<body>",
+                        "target": [
+                          "body"
+                        ]
+                      }
+                    ],
+                    "impact": "serious",
+                    "message": "Element has insufficient color contrast of 1.26 (foreground color: #ebd7d7, background color: #f5f5f5, font size: 75.0pt (100px), font weight: normal). Expected contrast ratio of 3:1"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<h1>todos</h1>",
+                "target": [
+                  "h1"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.26 (foreground color: #ebd7d7, background color: #f5f5f5, font size: 75.0pt (100px), font weight: normal). Expected contrast ratio of 3:1"
+              },
+              {
+                "any": [
+                  {
+                    "id": "color-contrast",
+                    "data": {
+                      "fgColor": "#777777",
+                      "bgColor": "#ffffff",
+                      "contrastRatio": 4.47,
+                      "fontSize": "10.5pt (14px)",
+                      "fontWeight": "normal",
+                      "messageKey": null,
+                      "expectedContrastRatio": "4.5:1"
+                    },
+                    "relatedNodes": [
+                      {
+                        "html": "<section class=\"todoapp\">",
+                        "target": [
+                          ".todoapp"
+                        ]
+                      }
+                    ],
+                    "impact": "serious",
+                    "message": "Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<a href=\"#/\" class=\"\">All</a>",
+                "target": [
+                  "a[href=\"#/\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "any": [
+                  {
+                    "id": "color-contrast",
+                    "data": {
+                      "fgColor": "#777777",
+                      "bgColor": "#ffffff",
+                      "contrastRatio": 4.47,
+                      "fontSize": "10.5pt (14px)",
+                      "fontWeight": "normal",
+                      "messageKey": null,
+                      "expectedContrastRatio": "4.5:1"
+                    },
+                    "relatedNodes": [
+                      {
+                        "html": "<section class=\"todoapp\">",
+                        "target": [
+                          ".todoapp"
+                        ]
+                      }
+                    ],
+                    "impact": "serious",
+                    "message": "Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<a href=\"#/active\" class=\"\">Active</a>",
+                "target": [
+                  "a[href$=\"#/active\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "any": [
+                  {
+                    "id": "color-contrast",
+                    "data": {
+                      "fgColor": "#777777",
+                      "bgColor": "#ffffff",
+                      "contrastRatio": 4.47,
+                      "fontSize": "10.5pt (14px)",
+                      "fontWeight": "normal",
+                      "messageKey": null,
+                      "expectedContrastRatio": "4.5:1"
+                    },
+                    "relatedNodes": [
+                      {
+                        "html": "<section class=\"todoapp\">",
+                        "target": [
+                          ".todoapp"
+                        ]
+                      }
+                    ],
+                    "impact": "serious",
+                    "message": "Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<a href=\"#/completed\" class=\"selected\">Completed</a>",
+                "target": [
+                  ".selected"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "any": [
+                  {
+                    "id": "color-contrast",
+                    "data": {
+                      "fgColor": "#777777",
+                      "bgColor": "#ffffff",
+                      "contrastRatio": 4.47,
+                      "fontSize": "10.5pt (14px)",
+                      "fontWeight": "normal",
+                      "messageKey": null,
+                      "expectedContrastRatio": "4.5:1"
+                    },
+                    "relatedNodes": [
+                      {
+                        "html": "<section class=\"todoapp\">",
+                        "target": [
+                          ".todoapp"
+                        ]
+                      }
+                    ],
+                    "impact": "serious",
+                    "message": "Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<button class=\"clear-completed\">Clear completed</button>",
+                "target": [
+                  ".clear-completed"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "any": [
+                  {
+                    "id": "color-contrast",
+                    "data": {
+                      "fgColor": "#bfbfbf",
+                      "bgColor": "#f5f5f5",
+                      "contrastRatio": 1.68,
+                      "fontSize": "7.5pt (10px)",
+                      "fontWeight": "normal",
+                      "messageKey": null,
+                      "expectedContrastRatio": "4.5:1"
+                    },
+                    "relatedNodes": [
+                      {
+                        "html": "<body>",
+                        "target": [
+                          "body"
+                        ]
+                      }
+                    ],
+                    "impact": "serious",
+                    "message": "Element has insufficient color contrast of 1.68 (foreground color: #bfbfbf, background color: #f5f5f5, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<p>Double-click to edit a todo</p>",
+                "target": [
+                  "p:nth-child(1)"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.68 (foreground color: #bfbfbf, background color: #f5f5f5, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "any": [
+                  {
+                    "id": "color-contrast",
+                    "data": {
+                      "fgColor": "#bfbfbf",
+                      "bgColor": "#f5f5f5",
+                      "contrastRatio": 1.68,
+                      "fontSize": "7.5pt (10px)",
+                      "fontWeight": "normal",
+                      "messageKey": null,
+                      "expectedContrastRatio": "4.5:1"
+                    },
+                    "relatedNodes": [
+                      {
+                        "html": "<body>",
+                        "target": [
+                          "body"
+                        ]
+                      }
+                    ],
+                    "impact": "serious",
+                    "message": "Element has insufficient color contrast of 1.68 (foreground color: #bfbfbf, background color: #f5f5f5, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<p>Created by <a href=\"http://github.com/remojansen/\">Remo H. Jansen</a></p>",
+                "target": [
+                  "p:nth-child(2)"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.68 (foreground color: #bfbfbf, background color: #f5f5f5, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "any": [
+                  {
+                    "id": "color-contrast",
+                    "data": {
+                      "fgColor": "#bfbfbf",
+                      "bgColor": "#f5f5f5",
+                      "contrastRatio": 1.68,
+                      "fontSize": "7.5pt (10px)",
+                      "fontWeight": "normal",
+                      "messageKey": null,
+                      "expectedContrastRatio": "4.5:1"
+                    },
+                    "relatedNodes": [
+                      {
+                        "html": "<body>",
+                        "target": [
+                          "body"
+                        ]
+                      }
+                    ],
+                    "impact": "serious",
+                    "message": "Element has insufficient color contrast of 1.68 (foreground color: #bfbfbf, background color: #f5f5f5, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<a href=\"http://github.com/remojansen/\">Remo H. Jansen</a>",
+                "target": [
+                  "a[href$=\"remojansen/\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.68 (foreground color: #bfbfbf, background color: #f5f5f5, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ]
+          },
+          {
+            "id": "landmark-one-main",
+            "impact": "moderate",
+            "tags": [
+              "cat.semantics",
+              "best-practice"
+            ],
+            "description": "Ensure the document has a main landmark",
+            "help": "Document should have one main landmark",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/landmark-one-main?application=playwright",
+            "nodes": [
+              {
+                "any": [],
+                "all": [
+                  {
+                    "id": "page-has-main",
+                    "data": null,
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Document does not have a main landmark"
+                  }
+                ],
+                "none": [],
+                "impact": "moderate",
+                "html": "<html lang=\"en\" data-framework=\"typescript\">",
+                "target": [
+                  "html"
+                ],
+                "failureSummary": "Fix all of the following:\n  Document does not have a main landmark"
+              }
+            ]
+          },
+          {
+            "id": "region",
+            "impact": "moderate",
+            "tags": [
+              "cat.keyboard",
+              "best-practice"
+            ],
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=playwright",
+            "nodes": [
+              {
+                "any": [
+                  {
+                    "id": "region",
+                    "data": {
+                      "isIframe": false
+                    },
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Some page content is not contained by landmarks"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "moderate",
+                "html": "<div style=\"background-color: #ffee5b; color: #444; padding: 0.75rem 1rem; text-align: center; border-bottom: 1px solid #cc0;\">This is just a demo of TodoMVC for testing, not the <a href=\"https://todomvc.com/\">real TodoMVC app.</a></div>",
+                "target": [
+                  "body > div"
+                ],
+                "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+              },
+              {
+                "any": [
+                  {
+                    "id": "region",
+                    "data": {
+                      "isIframe": false
+                    },
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Some page content is not contained by landmarks"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "moderate",
+                "html": "<header class=\"header\"><h1>todos</h1><input class=\"new-todo\" placeholder=\"What needs to be done?\"></header>",
+                "target": [
+                  "header"
+                ],
+                "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+              },
+              {
+                "any": [
+                  {
+                    "id": "region",
+                    "data": {
+                      "isIframe": false
+                    },
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Some page content is not contained by landmarks"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "moderate",
+                "html": "<input id=\"toggle-all\" class=\"toggle-all\" type=\"checkbox\">",
+                "target": [
+                  "#toggle-all"
+                ],
+                "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+              },
+              {
+                "any": [
+                  {
+                    "id": "region",
+                    "data": {
+                      "isIframe": false
+                    },
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Some page content is not contained by landmarks"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "moderate",
+                "html": "<label for=\"toggle-all\">Mark all as complete</label>",
+                "target": [
+                  "label[for=\"toggle-all\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+              },
+              {
+                "any": [
+                  {
+                    "id": "region",
+                    "data": {
+                      "isIframe": false
+                    },
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Some page content is not contained by landmarks"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "moderate",
+                "html": "<input aria-label=\"Toggle Todo\" class=\"toggle\" type=\"checkbox\" checked=\"\">",
+                "target": [
+                  ".toggle"
+                ],
+                "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+              },
+              {
+                "any": [
+                  {
+                    "id": "region",
+                    "data": {
+                      "isIframe": false
+                    },
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Some page content is not contained by landmarks"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "moderate",
+                "html": "<label data-testid=\"todo-title\">buy some cheese</label>",
+                "target": [
+                  "label[data-testid=\"todo-title\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+              },
+              {
+                "any": [
+                  {
+                    "id": "region",
+                    "data": {
+                      "isIframe": false
+                    },
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Some page content is not contained by landmarks"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "moderate",
+                "html": "<span data-testid=\"todo-count\" class=\"todo-count\"><strong>2</strong> items left</span>",
+                "target": [
+                  "span"
+                ],
+                "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+              },
+              {
+                "any": [
+                  {
+                    "id": "region",
+                    "data": {
+                      "isIframe": false
+                    },
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Some page content is not contained by landmarks"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "moderate",
+                "html": "<ul class=\"filters\"><li><a href=\"#/\" class=\"\">All</a></li> <li><a href=\"#/active\" class=\"\">Active</a></li> <li><a href=\"#/completed\" class=\"selected\">Completed</a></li></ul>",
+                "target": [
+                  ".filters"
+                ],
+                "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+              }
+            ]
+          }
+        ],
+        "reportPaths": {
+          "html": "reports/axe/axe-2025-03-01-19-00-41-521.html",
+          "json": "reports/axe/axe-2025-03-01-19-00-41-521.json"
+        }
+      },
+      "testInfo": {
+        "title": "should test filtered views",
+        "url": "https://demo.playwright.dev/todomvc/#/completed",
+        "project": {
+          "grep": {},
+          "grepInvert": null,
+          "outputDir": "/Users/kamenorite/Repos/playwright_a11y_lighthouse/test-results",
+          "repeatEach": 1,
+          "retries": 0,
+          "metadata": {},
+          "name": "chromium",
+          "testDir": "/Users/kamenorite/Repos/playwright_a11y_lighthouse/tests",
+          "snapshotDir": "/Users/kamenorite/Repos/playwright_a11y_lighthouse/tests",
+          "testIgnore": [],
+          "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+          "timeout": 60000,
+          "use": {
+            "actionTimeout": 0,
+            "trace": "on-first-retry",
+            "testIdAttribute": "data-testid",
+            "screenshot": "only-on-failure",
+            "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.6943.16 Safari/537.36",
+            "viewport": {
+              "width": 1280,
+              "height": 720
+            },
+            "screen": {
+              "width": 1920,
+              "height": 1080
+            },
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "defaultBrowserType": "chromium",
+            "launchOptions": {
+              "args": [
+                "--remote-debugging-port=9222"
+              ]
+            }
+          },
+          "dependencies": [],
+          "__projectId": "chromium"
+        }
+      }
+    },
+    {
+      "testFile": "/Users/kamenorite/Repos/playwright_a11y_lighthouse/tests/demo-todo-app.spec.js",
+      "testName": "should test filtered views",
+      "url": "https://demo.playwright.dev/todomvc/#/",
+      "lighthouseResults": {
+        "metrics": {
+          "performance": 100,
+          "accessibility": 90,
+          "best-practices": 96,
+          "seo": 90
+        },
+        "thresholdBreached": false,
+        "reportPaths": {
+          "html": "reports/lighthouse/lighthouse-2025-03-01-19-00-18-086.html",
+          "json": "reports/lighthouse/lighthouse-2025-03-01-19-00-18-086.json"
+        },
+        "scores": {
+          "performance": 0,
+          "accessibility": 0,
+          "bestPractices": 0,
+          "seo": 0,
+          "pwa": 0
+        },
+        "runs": 3
+      },
+      "axeResults": {
+        "metrics": {
+          "total_violations": 3,
+          "critical_violations": 0,
+          "serious_violations": 1,
+          "moderate_violations": 2,
+          "minor_violations": 0,
+          "passes": 30,
+          "total_tests": 33,
+          "has_critical_or_serious": true,
+          "has_moderate_or_minor": true
+        },
+        "violations": [
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "tags": [
+              "cat.color",
+              "wcag2aa",
+              "wcag143",
+              "TTv5",
+              "TT13.c",
+              "EN-301-549",
+              "EN-9.1.4.3",
+              "ACT"
+            ],
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=playwright",
+            "nodes": [
+              {
+                "any": [
+                  {
+                    "id": "color-contrast",
+                    "data": {
+                      "fgColor": "#ebd7d7",
+                      "bgColor": "#f5f5f5",
+                      "contrastRatio": 1.26,
+                      "fontSize": "75.0pt (100px)",
+                      "fontWeight": "normal",
+                      "messageKey": null,
+                      "expectedContrastRatio": "3:1"
+                    },
+                    "relatedNodes": [
+                      {
+                        "html": "<body>",
+                        "target": [
+                          "body"
+                        ]
+                      }
+                    ],
+                    "impact": "serious",
+                    "message": "Element has insufficient color contrast of 1.26 (foreground color: #ebd7d7, background color: #f5f5f5, font size: 75.0pt (100px), font weight: normal). Expected contrast ratio of 3:1"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<h1>todos</h1>",
+                "target": [
+                  "h1"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.26 (foreground color: #ebd7d7, background color: #f5f5f5, font size: 75.0pt (100px), font weight: normal). Expected contrast ratio of 3:1"
+              },
+              {
+                "any": [
+                  {
+                    "id": "color-contrast",
+                    "data": {
+                      "fgColor": "#777777",
+                      "bgColor": "#ffffff",
+                      "contrastRatio": 4.47,
+                      "fontSize": "10.5pt (14px)",
+                      "fontWeight": "normal",
+                      "messageKey": null,
+                      "expectedContrastRatio": "4.5:1"
+                    },
+                    "relatedNodes": [
+                      {
+                        "html": "<section class=\"todoapp\">",
+                        "target": [
+                          ".todoapp"
+                        ]
+                      }
+                    ],
+                    "impact": "serious",
+                    "message": "Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<a href=\"#/\" class=\"selected\">All</a>",
+                "target": [
+                  ".selected"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "any": [
+                  {
+                    "id": "color-contrast",
+                    "data": {
+                      "fgColor": "#777777",
+                      "bgColor": "#ffffff",
+                      "contrastRatio": 4.47,
+                      "fontSize": "10.5pt (14px)",
+                      "fontWeight": "normal",
+                      "messageKey": null,
+                      "expectedContrastRatio": "4.5:1"
+                    },
+                    "relatedNodes": [
+                      {
+                        "html": "<section class=\"todoapp\">",
+                        "target": [
+                          ".todoapp"
+                        ]
+                      }
+                    ],
+                    "impact": "serious",
+                    "message": "Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<a href=\"#/active\" class=\"\">Active</a>",
+                "target": [
+                  "a[href$=\"#/active\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "any": [
+                  {
+                    "id": "color-contrast",
+                    "data": {
+                      "fgColor": "#777777",
+                      "bgColor": "#ffffff",
+                      "contrastRatio": 4.47,
+                      "fontSize": "10.5pt (14px)",
+                      "fontWeight": "normal",
+                      "messageKey": null,
+                      "expectedContrastRatio": "4.5:1"
+                    },
+                    "relatedNodes": [
+                      {
+                        "html": "<section class=\"todoapp\">",
+                        "target": [
+                          ".todoapp"
+                        ]
+                      }
+                    ],
+                    "impact": "serious",
+                    "message": "Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<a href=\"#/completed\" class=\"\">Completed</a>",
+                "target": [
+                  "a[href$=\"#/completed\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "any": [
+                  {
+                    "id": "color-contrast",
+                    "data": {
+                      "fgColor": "#777777",
+                      "bgColor": "#ffffff",
+                      "contrastRatio": 4.47,
+                      "fontSize": "10.5pt (14px)",
+                      "fontWeight": "normal",
+                      "messageKey": null,
+                      "expectedContrastRatio": "4.5:1"
+                    },
+                    "relatedNodes": [
+                      {
+                        "html": "<section class=\"todoapp\">",
+                        "target": [
+                          ".todoapp"
+                        ]
+                      }
+                    ],
+                    "impact": "serious",
+                    "message": "Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<button class=\"clear-completed\">Clear completed</button>",
+                "target": [
+                  ".clear-completed"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "any": [
+                  {
+                    "id": "color-contrast",
+                    "data": {
+                      "fgColor": "#bfbfbf",
+                      "bgColor": "#f5f5f5",
+                      "contrastRatio": 1.68,
+                      "fontSize": "7.5pt (10px)",
+                      "fontWeight": "normal",
+                      "messageKey": null,
+                      "expectedContrastRatio": "4.5:1"
+                    },
+                    "relatedNodes": [
+                      {
+                        "html": "<body>",
+                        "target": [
+                          "body"
+                        ]
+                      }
+                    ],
+                    "impact": "serious",
+                    "message": "Element has insufficient color contrast of 1.68 (foreground color: #bfbfbf, background color: #f5f5f5, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<p>Double-click to edit a todo</p>",
+                "target": [
+                  "p:nth-child(1)"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.68 (foreground color: #bfbfbf, background color: #f5f5f5, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "any": [
+                  {
+                    "id": "color-contrast",
+                    "data": {
+                      "fgColor": "#bfbfbf",
+                      "bgColor": "#f5f5f5",
+                      "contrastRatio": 1.68,
+                      "fontSize": "7.5pt (10px)",
+                      "fontWeight": "normal",
+                      "messageKey": null,
+                      "expectedContrastRatio": "4.5:1"
+                    },
+                    "relatedNodes": [
+                      {
+                        "html": "<body>",
+                        "target": [
+                          "body"
+                        ]
+                      }
+                    ],
+                    "impact": "serious",
+                    "message": "Element has insufficient color contrast of 1.68 (foreground color: #bfbfbf, background color: #f5f5f5, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<p>Created by <a href=\"http://github.com/remojansen/\">Remo H. Jansen</a></p>",
+                "target": [
+                  "p:nth-child(2)"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.68 (foreground color: #bfbfbf, background color: #f5f5f5, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "any": [
+                  {
+                    "id": "color-contrast",
+                    "data": {
+                      "fgColor": "#bfbfbf",
+                      "bgColor": "#f5f5f5",
+                      "contrastRatio": 1.68,
+                      "fontSize": "7.5pt (10px)",
+                      "fontWeight": "normal",
+                      "messageKey": null,
+                      "expectedContrastRatio": "4.5:1"
+                    },
+                    "relatedNodes": [
+                      {
+                        "html": "<body>",
+                        "target": [
+                          "body"
+                        ]
+                      }
+                    ],
+                    "impact": "serious",
+                    "message": "Element has insufficient color contrast of 1.68 (foreground color: #bfbfbf, background color: #f5f5f5, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<a href=\"http://github.com/remojansen/\">Remo H. Jansen</a>",
+                "target": [
+                  "a[href$=\"remojansen/\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.68 (foreground color: #bfbfbf, background color: #f5f5f5, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ]
+          },
+          {
+            "id": "landmark-one-main",
+            "impact": "moderate",
+            "tags": [
+              "cat.semantics",
+              "best-practice"
+            ],
+            "description": "Ensure the document has a main landmark",
+            "help": "Document should have one main landmark",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/landmark-one-main?application=playwright",
+            "nodes": [
+              {
+                "any": [],
+                "all": [
+                  {
+                    "id": "page-has-main",
+                    "data": null,
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Document does not have a main landmark"
+                  }
+                ],
+                "none": [],
+                "impact": "moderate",
+                "html": "<html lang=\"en\" data-framework=\"typescript\">",
+                "target": [
+                  "html"
+                ],
+                "failureSummary": "Fix all of the following:\n  Document does not have a main landmark"
+              }
+            ]
+          },
+          {
+            "id": "region",
+            "impact": "moderate",
+            "tags": [
+              "cat.keyboard",
+              "best-practice"
+            ],
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=playwright",
+            "nodes": [
+              {
+                "any": [
+                  {
+                    "id": "region",
+                    "data": {
+                      "isIframe": false
+                    },
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Some page content is not contained by landmarks"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "moderate",
+                "html": "<div style=\"background-color: #ffee5b; color: #444; padding: 0.75rem 1rem; text-align: center; border-bottom: 1px solid #cc0;\">This is just a demo of TodoMVC for testing, not the <a href=\"https://todomvc.com/\">real TodoMVC app.</a></div>",
+                "target": [
+                  "body > div"
+                ],
+                "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+              },
+              {
+                "any": [
+                  {
+                    "id": "region",
+                    "data": {
+                      "isIframe": false
+                    },
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Some page content is not contained by landmarks"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "moderate",
+                "html": "<header class=\"header\"><h1>todos</h1><input class=\"new-todo\" placeholder=\"What needs to be done?\"></header>",
+                "target": [
+                  "header"
+                ],
+                "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+              },
+              {
+                "any": [
+                  {
+                    "id": "region",
+                    "data": {
+                      "isIframe": false
+                    },
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Some page content is not contained by landmarks"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "moderate",
+                "html": "<input id=\"toggle-all\" class=\"toggle-all\" type=\"checkbox\">",
+                "target": [
+                  "#toggle-all"
+                ],
+                "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+              },
+              {
+                "any": [
+                  {
+                    "id": "region",
+                    "data": {
+                      "isIframe": false
+                    },
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Some page content is not contained by landmarks"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "moderate",
+                "html": "<label for=\"toggle-all\">Mark all as complete</label>",
+                "target": [
+                  "label[for=\"toggle-all\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+              },
+              {
+                "any": [
+                  {
+                    "id": "region",
+                    "data": {
+                      "isIframe": false
+                    },
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Some page content is not contained by landmarks"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "moderate",
+                "html": "<input aria-label=\"Toggle Todo\" class=\"toggle\" type=\"checkbox\">",
+                "target": [
+                  ".completed[data-testid=\"todo-item\"]:nth-child(1) > .view > .toggle[aria-label=\"Toggle Todo\"][type=\"checkbox\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+              },
+              {
+                "any": [
+                  {
+                    "id": "region",
+                    "data": {
+                      "isIframe": false
+                    },
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Some page content is not contained by landmarks"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "moderate",
+                "html": "<label data-testid=\"todo-title\">buy some cheese</label>",
+                "target": [
+                  ".completed[data-testid=\"todo-item\"]:nth-child(1) > .view > label[data-testid=\"todo-title\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+              },
+              {
+                "any": [
+                  {
+                    "id": "region",
+                    "data": {
+                      "isIframe": false
+                    },
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Some page content is not contained by landmarks"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "moderate",
+                "html": "<input aria-label=\"Toggle Todo\" class=\"toggle\" type=\"checkbox\">",
+                "target": [
+                  ".completed[data-testid=\"todo-item\"]:nth-child(2) > .view > .toggle[aria-label=\"Toggle Todo\"][type=\"checkbox\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+              },
+              {
+                "any": [
+                  {
+                    "id": "region",
+                    "data": {
+                      "isIframe": false
+                    },
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Some page content is not contained by landmarks"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "moderate",
+                "html": "<label data-testid=\"todo-title\">feed the cat</label>",
+                "target": [
+                  ".completed[data-testid=\"todo-item\"]:nth-child(2) > .view > label[data-testid=\"todo-title\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+              },
+              {
+                "any": [
+                  {
+                    "id": "region",
+                    "data": {
+                      "isIframe": false
+                    },
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Some page content is not contained by landmarks"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "moderate",
+                "html": "<input aria-label=\"Toggle Todo\" class=\"toggle\" type=\"checkbox\">",
+                "target": [
+                  "li[data-testid=\"todo-item\"]:nth-child(3) > .view > .toggle[aria-label=\"Toggle Todo\"][type=\"checkbox\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+              },
+              {
+                "any": [
+                  {
+                    "id": "region",
+                    "data": {
+                      "isIframe": false
+                    },
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Some page content is not contained by landmarks"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "moderate",
+                "html": "<label data-testid=\"todo-title\">book a doctors appointment</label>",
+                "target": [
+                  "li[data-testid=\"todo-item\"]:nth-child(3) > .view > label[data-testid=\"todo-title\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+              },
+              {
+                "any": [
+                  {
+                    "id": "region",
+                    "data": {
+                      "isIframe": false
+                    },
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Some page content is not contained by landmarks"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "moderate",
+                "html": "<span data-testid=\"todo-count\" class=\"todo-count\"><strong>1</strong> item left</span>",
+                "target": [
+                  "span"
+                ],
+                "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+              },
+              {
+                "any": [
+                  {
+                    "id": "region",
+                    "data": {
+                      "isIframe": false
+                    },
+                    "relatedNodes": [],
+                    "impact": "moderate",
+                    "message": "Some page content is not contained by landmarks"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "moderate",
+                "html": "<ul class=\"filters\"><li><a href=\"#/\" class=\"selected\">All</a></li> <li><a href=\"#/active\" class=\"\">Active</a></li> <li><a href=\"#/completed\" class=\"\">Completed</a></li></ul>",
+                "target": [
+                  ".filters"
+                ],
+                "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+              }
+            ]
+          }
+        ],
+        "reportPaths": {
+          "html": "reports/axe/axe-2025-03-01-19-00-06-241.html",
+          "json": "reports/axe/axe-2025-03-01-19-00-06-241.json"
+        }
+      },
+      "testInfo": {
+        "title": "should test filtered views",
+        "url": "https://demo.playwright.dev/todomvc/#/",
+        "project": {
+          "grep": {},
+          "grepInvert": null,
+          "outputDir": "/Users/kamenorite/Repos/playwright_a11y_lighthouse/test-results",
+          "repeatEach": 1,
+          "retries": 0,
+          "metadata": {},
+          "name": "chromium",
+          "testDir": "/Users/kamenorite/Repos/playwright_a11y_lighthouse/tests",
+          "snapshotDir": "/Users/kamenorite/Repos/playwright_a11y_lighthouse/tests",
+          "testIgnore": [],
+          "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+          "timeout": 60000,
+          "use": {
+            "actionTimeout": 0,
+            "trace": "on-first-retry",
+            "testIdAttribute": "data-testid",
+            "screenshot": "only-on-failure",
+            "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.6943.16 Safari/537.36",
+            "viewport": {
+              "width": 1280,
+              "height": 720
+            },
+            "screen": {
+              "width": 1920,
+              "height": 1080
+            },
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "defaultBrowserType": "chromium",
+            "launchOptions": {
+              "args": [
+                "--remote-debugging-port=9222"
+              ]
+            }
+          },
+          "dependencies": [],
+          "__projectId": "chromium"
+        }
+      }
+    }
+  ]
+}

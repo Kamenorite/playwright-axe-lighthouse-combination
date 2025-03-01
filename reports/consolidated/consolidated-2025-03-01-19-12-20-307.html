@@ -1,0 +1,151 @@
+
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <title>Consolidated Audit Report - 2025-03-01-19-12-20-307</title>
+        <style>
+    body { 
+      font-family: Arial, sans-serif; 
+      margin: 0;
+      padding: 20px;
+      background: #f5f5f5;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .section {
+      margin-bottom: 2em;
+      padding: 1em;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1em;
+      margin: 1em 0;
+    }
+    .metric-card {
+      padding: 1em;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      background: #f8f9fa;
+    }
+    .score {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 0.5em;
+    }
+    .good { color: #0cce6b; }
+    .average { color: #ffa400; }
+    .poor { color: #ff4e42; }
+    .test-section {
+      margin-bottom: 2em;
+      padding: 1em;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+    .test-section.fail { border-left: 5px solid #ff4e42; }
+    .test-section.warning { border-left: 5px solid #ffa400; }
+    .test-section.pass { border-left: 5px solid #0cce6b; }
+    .test-header {
+      cursor: pointer;
+      user-select: none;
+      display: flex;
+      align-items: center;
+      gap: 0.5em;
+    }
+    .test-header:hover {
+      background: #f8f9fa;
+    }
+    .status-icon {
+      font-size: 1.2em;
+      min-width: 1.5em;
+    }
+    .caret {
+      display: inline-block;
+      width: 0;
+      height: 0;
+      border-top: 6px solid transparent;
+      border-bottom: 6px solid transparent;
+      border-left: 6px solid #666;
+      transition: transform 0.2s;
+    }
+    .caret.expanded {
+      transform: rotate(90deg);
+    }
+    .test-content {
+      display: none;
+      margin-top: 1em;
+    }
+    .test-content.expanded {
+      display: block;
+    }
+    .test-title {
+      flex-grow: 1;
+    }
+    .report-links {
+      margin-top: 1em;
+      text-align: right;
+    }
+    .report-link {
+      display: inline-block;
+      padding: 0.5em 1em;
+      background: #f0f0f0;
+      color: #333;
+      text-decoration: none;
+      border-radius: 4px;
+      font-size: 0.9em;
+      margin-left: 1em;
+    }
+    .report-link:hover {
+      background: #e0e0e0;
+    }
+    .threshold {
+      font-size: 0.8em;
+      color: #666;
+      margin-top: 0.5em;
+    }
+  </style>
+        <script>
+    function toggleSection(index) {
+      const content = document.getElementById('test-content-' + index);
+      const caret = document.getElementById('caret-' + index);
+      content.classList.toggle('expanded');
+      caret.classList.toggle('expanded');
+    }
+  </script>
+      </head>
+      <body>
+        <div class="container">
+          <h1>Consolidated Audit Report</h1>
+          <div class="test-info">
+            <p><strong>Execution Date:</strong> Sat, 01 Mar 2025 19:12:20 GMT (UTC)</p>
+            <p><strong>Total Tests:</strong> 0</p>
+          </div>
+
+          <div class="summary">
+            <h2>Summary</h2>
+            <div class="metrics">
+              <div class="metric-card">
+                <div class="score">0</div>
+                <div>Total Tests</div>
+              </div>
+              <div class="metric-card">
+                <div class="score">0</div>
+                <div>Total Accessibility Issues</div>
+              </div>
+              
+            </div>
+          </div>
+
+          
+        </div>
+      </body>
+    </html>
+  

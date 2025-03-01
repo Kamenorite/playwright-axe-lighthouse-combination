@@ -1,0 +1,418 @@
+
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <title>Accessibility Audit Report</title>
+        <style>
+          body { font-family: Arial, sans-serif; margin: 20px; }
+          .violation { margin: 20px 0; padding: 10px; border: 1px solid #ddd; }
+          .critical { border-left: 5px solid #ff0000; }
+          .serious { border-left: 5px solid #ff9900; }
+          .moderate { border-left: 5px solid #ffcc00; }
+          .minor { border-left: 5px solid #ffff00; }
+          .metrics { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin: 20px 0; }
+          .metric-card { padding: 20px; background: #f5f5f5; border-radius: 5px; }
+          .status-icon { font-size: 2em; margin-bottom: 10px; }
+          .violation-header { display: flex; align-items: center; gap: 10px; }
+          .violation-icon { font-size: 1.2em; }
+        </style>
+      </head>
+      <body>
+        <h1>Accessibility Audit Report</h1>
+        
+        <div class="metrics">
+          <div class="metric-card">
+            <div class="status-icon">❌</div>
+            <h3>Total Violations: 6</h3>
+            <p>Critical: 1</p>
+            <p>Serious: 2</p>
+            <p>Moderate: 3</p>
+            <p>Minor: 0</p>
+          </div>
+          <div class="metric-card">
+            <h3>Tests Passed: 30</h3>
+            <p>Total Tests: 36</p>
+          </div>
+        </div>
+
+        <h2>Violations</h2>
+        
+          <div class="violation serious">
+            <div class="violation-header">
+              <span class="violation-icon">❌</span>
+              <h3>Elements must meet minimum color contrast ratio thresholds (serious)</h3>
+            </div>
+            <p>Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p>
+            <p><strong>Impact:</strong> serious</p>
+            <p><strong>Tags:</strong> cat.color, wcag2aa, wcag143, TTv5, TT13.c, EN-301-549, EN-9.1.4.3, ACT</p>
+            <details>
+              <summary>Affected Elements (18)</summary>
+              <ul>
+                
+                  <li>
+                    <code><h5>$360</h5></code>
+                    <p>Fix any of the following:
+  Element has insufficient color contrast of 3.63 (foreground color: #868688, background color: #ffffff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1</p>
+                  </li>
+                
+                  <li>
+                    <code><p id="article" class="card-text">The Samsung Galaxy S6 is powered by 1.5GHz octa-core Samsung Exynos 7420
+ processor and it comes with 3GB of RAM. The phone packs 32GB of 
+internal storage cannot be expanded.  </p></code>
+                    <p>Fix any of the following:
+  Element has insufficient color contrast of 3.63 (foreground color: #868688, background color: #ffffff, font size: 11.0pt (14.6667px), font weight: normal). Expected contrast ratio of 4.5:1</p>
+                  </li>
+                
+                  <li>
+                    <code><h5>$820</h5></code>
+                    <p>Fix any of the following:
+  Element has insufficient color contrast of 3.63 (foreground color: #868688, background color: #ffffff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1</p>
+                  </li>
+                
+                  <li>
+                    <code><p id="article" class="card-text">The Nokia Lumia 1520 is powered by 2.2GHz quad-core Qualcomm Snapdragon 800 processor and it comes with 2GB of RAM.  </p></code>
+                    <p>Fix any of the following:
+  Element has insufficient color contrast of 3.63 (foreground color: #868688, background color: #ffffff, font size: 11.0pt (14.6667px), font weight: normal). Expected contrast ratio of 4.5:1</p>
+                  </li>
+                
+                  <li>
+                    <code><h5>$650</h5></code>
+                    <p>Fix any of the following:
+  Element has insufficient color contrast of 3.63 (foreground color: #868688, background color: #ffffff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1</p>
+                  </li>
+                
+                  <li>
+                    <code><p id="article" class="card-text">The Motorola Google Nexus 6 is powered by 2.7GHz quad-core Qualcomm Snapdragon 805 processor and it comes with 3GB of RAM. </p></code>
+                    <p>Fix any of the following:
+  Element has insufficient color contrast of 3.63 (foreground color: #868688, background color: #ffffff, font size: 11.0pt (14.6667px), font weight: normal). Expected contrast ratio of 4.5:1</p>
+                  </li>
+                
+                  <li>
+                    <code><h5>$800</h5></code>
+                    <p>Fix any of the following:
+  Element has insufficient color contrast of 3.63 (foreground color: #868688, background color: #ffffff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1</p>
+                  </li>
+                
+                  <li>
+                    <code><p id="article" class="card-text">The Samsung Galaxy S7 is powered by 1.6GHz octa-core it comes with 4GB 
+of RAM. The phone packs 32GB of internal storage that can be expanded up
+ to 200GB via a microSD card. </p></code>
+                    <p>Fix any of the following:
+  Element has insufficient color contrast of 3.63 (foreground color: #868688, background color: #ffffff, font size: 11.0pt (14.6667px), font weight: normal). Expected contrast ratio of 4.5:1</p>
+                  </li>
+                
+                  <li>
+                    <code><h5>$790</h5></code>
+                    <p>Fix any of the following:
+  Element has insufficient color contrast of 3.63 (foreground color: #868688, background color: #ffffff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1</p>
+                  </li>
+                
+                  <li>
+                    <code><p id="article" class="card-text">It comes with 1GB of RAM. The phone packs 16GB of internal storage 
+cannot be expanded. As far as the cameras are concerned, the Apple 
+iPhone 6 packs a 8-megapixel primary camera on the rear and a 
+1.2-megapixel front shooter for selfies. </p></code>
+                    <p>Fix any of the following:
+  Element has insufficient color contrast of 3.63 (foreground color: #868688, background color: #ffffff, font size: 11.0pt (14.6667px), font weight: normal). Expected contrast ratio of 4.5:1</p>
+                  </li>
+                
+                  <li>
+                    <code><h5>$320</h5></code>
+                    <p>Fix any of the following:
+  Element has insufficient color contrast of 3.63 (foreground color: #868688, background color: #ffffff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1</p>
+                  </li>
+                
+                  <li>
+                    <code><p id="article" class="card-text">Sony Xperia Z5 Dual smartphone was launched in September 2015. The phone
+ comes with a 5.20-inch touchscreen display with a resolution of 1080 
+pixels by 1920 pixels at a PPI of 424 pixels per inch. </p></code>
+                    <p>Fix any of the following:
+  Element has insufficient color contrast of 3.63 (foreground color: #868688, background color: #ffffff, font size: 11.0pt (14.6667px), font weight: normal). Expected contrast ratio of 4.5:1</p>
+                  </li>
+                
+                  <li>
+                    <code><h5>$700</h5></code>
+                    <p>Fix any of the following:
+  Element has insufficient color contrast of 3.63 (foreground color: #868688, background color: #ffffff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1</p>
+                  </li>
+                
+                  <li>
+                    <code><p id="article" class="card-text">The HTC One M9 is powered by 1.5GHz octa-core Qualcomm Snapdragon 810 
+processor and it comes with 3GB of RAM. The phone packs 32GB of internal
+ storage that can be expanded up to 128GB via a microSD card.  </p></code>
+                    <p>Fix any of the following:
+  Element has insufficient color contrast of 3.63 (foreground color: #868688, background color: #ffffff, font size: 11.0pt (14.6667px), font weight: normal). Expected contrast ratio of 4.5:1</p>
+                  </li>
+                
+                  <li>
+                    <code><h5>$790</h5></code>
+                    <p>Fix any of the following:
+  Element has insufficient color contrast of 3.63 (foreground color: #868688, background color: #ffffff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1</p>
+                  </li>
+                
+                  <li>
+                    <code><p id="article" class="card-text">Sony is so confident that the VAIO S is a superior ultraportable laptop 
+that the company proudly compares the notebook to Apple's 13-inch 
+MacBook Pro. And in a lot of ways this notebook is better, thanks to a 
+lighter weight. </p></code>
+                    <p>Fix any of the following:
+  Element has insufficient color contrast of 3.63 (foreground color: #868688, background color: #ffffff, font size: 11.0pt (14.6667px), font weight: normal). Expected contrast ratio of 4.5:1</p>
+                  </li>
+                
+                  <li>
+                    <code><h5>$790</h5></code>
+                    <p>Fix any of the following:
+  Element has insufficient color contrast of 3.63 (foreground color: #868688, background color: #ffffff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1</p>
+                  </li>
+                
+                  <li>
+                    <code><p id="article" class="card-text"></code>
+                    <p>Fix any of the following:
+  Element has insufficient color contrast of 3.63 (foreground color: #868688, background color: #ffffff, font size: 11.0pt (14.6667px), font weight: normal). Expected contrast ratio of 4.5:1</p>
+                  </li>
+                
+              </ul>
+            </details>
+          </div>
+        
+          <div class="violation critical">
+            <div class="violation-header">
+              <span class="violation-icon">❌</span>
+              <h3>Images must have alternative text (critical)</h3>
+            </div>
+            <p>Ensure <img> elements have alternative text or a role of none or presentation</p>
+            <p><strong>Impact:</strong> critical</p>
+            <p><strong>Tags:</strong> cat.text-alternatives, wcag2a, wcag111, section508, section508.22.a, TTv5, TT7.a, TT7.b, EN-301-549, EN-9.1.1.1, ACT</p>
+            <details>
+              <summary>Affected Elements (2)</summary>
+              <ul>
+                
+                  <li>
+                    <code><img width="50" height="50" style="margin-right:10px" src="bm.png"></code>
+                    <p>Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"</p>
+                  </li>
+                
+                  <li>
+                    <code><img width="50" height="50" style="margin-right:10px" src="bm.png"></code>
+                    <p>Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role="none" or role="presentation"</p>
+                  </li>
+                
+              </ul>
+            </details>
+          </div>
+        
+          <div class="violation moderate">
+            <div class="violation-header">
+              <span class="violation-icon">⚠️</span>
+              <h3>Document should have one main landmark (moderate)</h3>
+            </div>
+            <p>Ensure the document has a main landmark</p>
+            <p><strong>Impact:</strong> moderate</p>
+            <p><strong>Tags:</strong> cat.semantics, best-practice</p>
+            <details>
+              <summary>Affected Elements (1)</summary>
+              <ul>
+                
+                  <li>
+                    <code><html lang="en"></code>
+                    <p>Fix all of the following:
+  Document does not have a main landmark</p>
+                  </li>
+                
+              </ul>
+            </details>
+          </div>
+        
+          <div class="violation serious">
+            <div class="violation-header">
+              <span class="violation-icon">❌</span>
+              <h3>Links must have discernible text (serious)</h3>
+            </div>
+            <p>Ensure links have discernible text</p>
+            <p><strong>Impact:</strong> serious</p>
+            <p><strong>Tags:</strong> cat.name-role-value, wcag2a, wcag244, wcag412, section508, section508.22.a, TTv5, TT6.a, EN-301-549, EN-9.2.4.4, EN-9.4.1.2, ACT</p>
+            <details>
+              <summary>Affected Elements (9)</summary>
+              <ul>
+                
+                  <li>
+                    <code><a href="prod.html?idp_=1"><img class="card-img-top img-fluid" src="imgs/galaxy_s6.jpg" alt=""></a></code>
+                    <p>Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute</p>
+                  </li>
+                
+                  <li>
+                    <code><a href="prod.html?idp_=2"><img class="card-img-top img-fluid" src="imgs/Lumia_1520.jpg" alt=""></a></code>
+                    <p>Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute</p>
+                  </li>
+                
+                  <li>
+                    <code><a href="prod.html?idp_=3"><img class="card-img-top img-fluid" src="imgs/Nexus_6.jpg" alt=""></a></code>
+                    <p>Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute</p>
+                  </li>
+                
+                  <li>
+                    <code><a href="prod.html?idp_=4"><img class="card-img-top img-fluid" src="imgs/galaxy_s6.jpg" alt=""></a></code>
+                    <p>Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute</p>
+                  </li>
+                
+                  <li>
+                    <code><a href="prod.html?idp_=5"><img class="card-img-top img-fluid" src="imgs/iphone_6.jpg" alt=""></a></code>
+                    <p>Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute</p>
+                  </li>
+                
+                  <li>
+                    <code><a href="prod.html?idp_=6"><img class="card-img-top img-fluid" src="imgs/xperia_z5.jpg" alt=""></a></code>
+                    <p>Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute</p>
+                  </li>
+                
+                  <li>
+                    <code><a href="prod.html?idp_=7"><img class="card-img-top img-fluid" src="imgs/HTC_M9.jpg" alt=""></a></code>
+                    <p>Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute</p>
+                  </li>
+                
+                  <li>
+                    <code><a href="prod.html?idp_=8"><img class="card-img-top img-fluid" src="imgs/sony_vaio_5.jpg" alt=""></a></code>
+                    <p>Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute</p>
+                  </li>
+                
+                  <li>
+                    <code><a href="prod.html?idp_=9"><img class="card-img-top img-fluid" src="imgs/sony_vaio_5.jpg" alt=""></a></code>
+                    <p>Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute</p>
+                  </li>
+                
+              </ul>
+            </details>
+          </div>
+        
+          <div class="violation moderate">
+            <div class="violation-header">
+              <span class="violation-icon">⚠️</span>
+              <h3>Page should contain a level-one heading (moderate)</h3>
+            </div>
+            <p>Ensure that the page, or at least one of its frames contains a level-one heading</p>
+            <p><strong>Impact:</strong> moderate</p>
+            <p><strong>Tags:</strong> cat.semantics, best-practice</p>
+            <details>
+              <summary>Affected Elements (1)</summary>
+              <ul>
+                
+                  <li>
+                    <code><html lang="en"></code>
+                    <p>Fix all of the following:
+  Page must have a level-one heading</p>
+                  </li>
+                
+              </ul>
+            </details>
+          </div>
+        
+          <div class="violation moderate">
+            <div class="violation-header">
+              <span class="violation-icon">⚠️</span>
+              <h3>All page content should be contained by landmarks (moderate)</h3>
+            </div>
+            <p>Ensure all page content is contained by landmarks</p>
+            <p><strong>Impact:</strong> moderate</p>
+            <p><strong>Tags:</strong> cat.keyboard, best-practice</p>
+            <details>
+              <summary>Affected Elements (3)</summary>
+              <ul>
+                
+                  <li>
+                    <code><div class="col-lg-3"></code>
+                    <p>Fix any of the following:
+  Some page content is not contained by landmarks</p>
+                  </li>
+                
+                  <li>
+                    <code><div class="row" id="tbodyid"></code>
+                    <p>Fix any of the following:
+  Some page content is not contained by landmarks</p>
+                  </li>
+                
+                  <li>
+                    <code><div id="footc"></code>
+                    <p>Fix any of the following:
+  Some page content is not contained by landmarks</p>
+                  </li>
+                
+              </ul>
+            </details>
+          </div>
+        
+      </body>
+    </html>
+  

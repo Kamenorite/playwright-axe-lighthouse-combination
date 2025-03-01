@@ -1,0 +1,55 @@
+{
+  "name": "playwright-accessibility-performance",
+  "version": "1.0.0",
+  "description": "Automated accessibility and performance testing with Playwright",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:chrome": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:webkit": "playwright test --project=webkit",
+    "test:functional": "playwright test --grep=\"Todo List Core Functionality\"",
+    "test:a11y": "ENABLE_AXE=true playwright test --grep=\"Accessibility and Performance Tests\"",
+    "test:perf": "ENABLE_LIGHTHOUSE=true playwright test --grep=\"Accessibility and Performance Tests\"",
+    "test:full": "ENABLE_LIGHTHOUSE=true ENABLE_AXE=true playwright test",
+    "test:ecommerce": "ENABLE_LIGHTHOUSE=true ENABLE_AXE=true playwright test tests/ecommerce.spec.js --project=chromium",
+    "format": "prettier --write .",
+    "lint": "eslint . --ext .js",
+    "lint:fix": "eslint . --ext .js --fix",
+    "prepare": "lefthook install",
+    "commit": "npx git-cz"
+  },
+  "keywords": [
+    "playwright",
+    "accessibility",
+    "performance",
+    "testing",
+    "lighthouse",
+    "axe-core"
+  ],
+  "author": "Kamenorite",
+  "license": "ISC",
+  "devDependencies": {
+    "@axe-core/playwright": "^4.8.1",
+    "@commitlint/cli": "^19.7.1",
+    "@commitlint/config-conventional": "^19.7.1",
+    "@playwright/test": "^1.47.0",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "dotenv": "^16.4.5",
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.31.0",
+    "lefthook": "^1.11.2",
+    "playwright-lighthouse": "^4.0.0",
+    "prettier": "^3.2.5"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
