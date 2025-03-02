@@ -16,4 +16,4 @@ commit-msg:
 pre-push:
   commands:
     tests:
-      run: npm run test:functional
+      run: npm test
