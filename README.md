@@ -44,8 +44,8 @@ A robust framework for automated accessibility and performance testing built wit
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/playwright_practice.git
-cd playwright_practice
+git clone https://github.com/kamenorite/playwright-axe-lighthouse-combination.git
+cd playwright-axe-lighthouse-combination
 ```
 
 ### 2️⃣ Install Dependencies
