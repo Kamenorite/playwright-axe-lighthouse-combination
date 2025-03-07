@@ -1,6 +1,8 @@
 // @ts-check
-const { devices } = require('@playwright/test')
-require('dotenv').config()
+import { devices } from '@playwright/test';
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 /**
  * @see https://playwright.dev/docs/test-configuration
@@ -24,12 +26,9 @@ const config = {
   /* Retry on CI only */
   retries: process.env.CI === 'true' ? 2 : 0,
   /* Use multiple workers based on test type */
-  workers: process.env.ENABLE_LIGHTHOUSE === 'true' ? 1 : undefined, // Use single worker for Lighthouse tests, auto for others
+  workers: process.env.ENABLE_LIGHTHOUSE === 'true' ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-  reporter: [
-    ['html'],
-    ['list']
-  ],
+  reporter: [['html'], ['list']],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Maximum time each action such as `click()` can take. Defaults to 0 (no limit). */
@@ -44,7 +43,8 @@ const config = {
     testIdAttribute: 'data-testid',
 
     /* Take screenshots on failure if enabled */
-    screenshot: process.env.SCREENSHOT_ON_FAILURE === 'true' ? 'only-on-failure' : 'off'
+    screenshot:
+      process.env.SCREENSHOT_ON_FAILURE === 'true' ? 'only-on-failure' : 'off',
   },
 
   /* Configure projects for major browsers */
@@ -55,8 +55,11 @@ const config = {
         ...devices['Desktop Chrome'],
         // Launch options for Lighthouse tests
         launchOptions: {
-          args: process.env.ENABLE_LIGHTHOUSE === 'true' ? ['--remote-debugging-port=9222'] : []
-        }
+          args:
+            process.env.ENABLE_LIGHTHOUSE === 'true'
+              ? ['--remote-debugging-port=9222']
+              : [],
+        },
       },
     },
 
@@ -111,6 +114,6 @@ const config = {
   //   command: 'npm run start',
   //   port: 3000,
   // },
-}
+};
 
-module.exports = config
+export default config;

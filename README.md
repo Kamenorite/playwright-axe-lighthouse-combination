@@ -28,6 +28,10 @@ A robust framework for automated accessibility and performance testing built wit
   - Real-world e-commerce website testing
   - Multiple page types (home, category, product, cart)
   - Cross-browser compatibility testing
+- **🔄 Modern JavaScript**:
+  - ES Modules for cleaner imports/exports
+  - Enhanced code organization
+  - Better compatibility with modern tools
 
 ---
 
@@ -36,6 +40,35 @@ A robust framework for automated accessibility and performance testing built wit
 - **Node.js** v22.1.0
 - **npm** or **yarn**
 - **Google Chrome**
+
+## Node.js Version Management
+
+This project requires Node.js v22.1.0 and uses ES Modules. We provide configuration files for multiple version managers:
+
+### Using nvm (Node Version Manager)
+
+The project includes a `.nvmrc` file that specifies the required Node.js version. If you use [nvm](https://github.com/nvm-sh/nvm), you can automatically switch to the correct version:
+
+```bash
+# Install the required Node.js version
+nvm install
+
+# Use the version specified in .nvmrc
+nvm use
+```
+
+### Using asdf
+
+The project includes a `.tool-versions` file for [asdf](https://asdf-vm.com/) users:
+
+```bash
+# Install the required Node.js version
+asdf install nodejs 22.1.0
+
+# The correct version will be automatically used when in the project directory
+# Or you can explicitly use:
+asdf exec node --version
+```
 
 ---
 
@@ -100,12 +133,28 @@ The caching system optimizes test execution by reusing audit results, reducing r
 ### 🛠 Example Usage
 
 ```javascript
+// ES Module import example
+import auditCache from "./helpers/audits/audit-cache.js";
+
 if (auditCache.has(url, state)) {
   return auditCache.get(url, state);
 }
 const results = await runAudit(page);
 auditCache.set(url, results, state);
 ```
+
+---
+
+## Project Architecture
+
+This project uses ES Modules for better code organization and compatibility with modern JavaScript tooling.
+
+### Key Implementation Details
+
+- **ES Modules**: All JavaScript files use ES Modules (`import`/`export`) syntax
+- **Configuration Files**: Common JS configuration files (like ESLint) use the `.cjs` extension
+- **File Extensions**: All local imports include the `.js` extension as required by ES Modules
+- **Package.json**: Includes `"type": "module"` to enable ES Modules by default
 
 ---
 
@@ -132,3 +181,4 @@ This project is open-source and available under the [MIT License](LICENSE).
 - ♿ [Axe-core Documentation](https://github.com/dequelabs/axe-core)
 - 📊 [Web Vitals](https://web.dev/vitals/)
 - ✅ [WCAG Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/)
+- 📚 [ES Modules in Node.js](https://nodejs.org/api/esm.html)

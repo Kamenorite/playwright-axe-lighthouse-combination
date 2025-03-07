@@ -1,14 +1,18 @@
-const fs = require('fs');
-const path = require('path');
-const { getFormattedTimestamp, formatDisplayDate, ensureDirectoryExists } = require('../utils/file-utils');
-const { reportPaths } = require('../config/audit-config');
-const testState = require('../state');
+import fs from 'fs';
+import path from 'path';
+import {
+  getFormattedTimestamp,
+  formatDisplayDate,
+  ensureDirectoryExists,
+} from '../utils/file-utils.js';
+import { reportPaths } from '../config/audit-config.js';
+import testState from '../state.js';
 
 // Log level constants
 const LOG_LEVELS = {
   ERROR: 'error',
   WARN: 'warn',
-  INFO: 'info'
+  INFO: 'info',
 };
 
 let executionTimestamp = null;
@@ -31,16 +35,27 @@ function generateConsolidatedReport() {
   }
 
   const testResults = testState.getResults();
-  console.log(`Generating consolidated report with ${testResults.length} results from state`);
+  console.log(
+    `Generating consolidated report with ${testResults.length} results from state`,
+  );
 
   // Ensure the consolidated reports directory exists
   ensureDirectoryExists(reportPaths.consolidated);
 
-  const htmlReportPath = path.join(reportPaths.consolidated, `consolidated-${executionTimestamp}.html`);
-  const jsonReportPath = path.join(reportPaths.consolidated, `consolidated-${executionTimestamp}.json`);
+  const htmlReportPath = path.join(
+    reportPaths.consolidated,
+    `consolidated-${executionTimestamp}.html`,
+  );
+  const jsonReportPath = path.join(
+    reportPaths.consolidated,
+    `consolidated-${executionTimestamp}.json`,
+  );
 
   // Generate and save HTML report
-  const htmlReport = createConsolidatedHtmlReport(executionTimestamp, testResults);
+  const htmlReport = createConsolidatedHtmlReport(
+    executionTimestamp,
+    testResults,
+  );
   fs.writeFileSync(htmlReportPath, htmlReport);
 
   // Get thresholds from the first result
@@ -53,20 +68,34 @@ function generateConsolidatedReport() {
     totalTests: testResults.length,
     thresholds,
     summary: {
-      totalAccessibilityViolations: testResults.reduce((acc, r) => acc + (r.axeResults?.metrics?.total_violations || 0), 0),
+      totalAccessibilityViolations: testResults.reduce(
+        (acc, r) => acc + (r.axeResults?.metrics?.total_violations || 0),
+        0,
+      ),
       averageMetrics: Object.fromEntries(
         Object.entries(thresholds).map(([key, threshold]) => [
           key,
           {
-            score: Math.round(testResults.reduce((acc, r) => acc + (r.lighthouseResults?.metrics?.[key] || 0), 0) / testResults.length),
-            threshold: threshold,
-            thresholdBreached: Math.round(testResults.reduce((acc, r) => acc + (r.lighthouseResults?.metrics?.[key] || 0), 0) / testResults.length) < threshold
-          }
-        ])
-      )
+            score: Math.round(
+              testResults.reduce(
+                (acc, r) => acc + (r.lighthouseResults?.metrics?.[key] || 0),
+                0,
+              ) / testResults.length,
+            ),
+            threshold,
+            thresholdBreached:
+              Math.round(
+                testResults.reduce(
+                  (acc, r) => acc + (r.lighthouseResults?.metrics?.[key] || 0),
+                  0,
+                ) / testResults.length,
+              ) < threshold,
+          },
+        ]),
+      ),
     },
     // Datadog-friendly metrics
-    metrics: testResults.map(result => ({
+    metrics: testResults.map((result) => ({
       timestamp: executionTimestamp,
       test_name: result.testName,
       url_path: new URL(result.url).pathname,
@@ -80,36 +109,43 @@ function generateConsolidatedReport() {
       seo_threshold: thresholds.seo || 90,
       seo_score: result.lighthouseResults?.metrics?.seo || 0,
       // Core Web Vitals
-      vital_lcp: result.lighthouseResults?.metrics?.['largest-contentful-paint'] || 0,
+      vital_lcp:
+        result.lighthouseResults?.metrics?.['largest-contentful-paint'] || 0,
       vital_fid: result.lighthouseResults?.metrics?.['max-potential-fid'] || 0,
-      vital_cls: result.lighthouseResults?.metrics?.['cumulative-layout-shift'] || 0,
+      vital_cls:
+        result.lighthouseResults?.metrics?.['cumulative-layout-shift'] || 0,
       // Additional performance metrics
-      metric_fcp: result.lighthouseResults?.metrics?.['first-contentful-paint'] || 0,
+      metric_fcp:
+        result.lighthouseResults?.metrics?.['first-contentful-paint'] || 0,
       metric_si: result.lighthouseResults?.metrics?.['speed-index'] || 0,
-      metric_tbt: result.lighthouseResults?.metrics?.['total-blocking-time'] || 0,
-      metric_tti: result.lighthouseResults?.metrics?.['interactive'] || 0,
-      metric_ttfb: result.lighthouseResults?.metrics?.['server-response-time'] || 0,
+      metric_tbt:
+        result.lighthouseResults?.metrics?.['total-blocking-time'] || 0,
+      metric_tti: result.lighthouseResults?.metrics?.interactive || 0,
+      metric_ttfb:
+        result.lighthouseResults?.metrics?.['server-response-time'] || 0,
       // Network metrics
       network_rtt: result.lighthouseResults?.metrics?.['network-rtt'] || 0,
-      network_latency: result.lighthouseResults?.metrics?.['network-server-latency'] || 0,
+      network_latency:
+        result.lighthouseResults?.metrics?.['network-server-latency'] || 0,
       // Resource metrics
-      resource_bytes: result.lighthouseResults?.metrics?.['total-byte-weight'] || 0,
+      resource_bytes:
+        result.lighthouseResults?.metrics?.['total-byte-weight'] || 0,
       resource_dom_nodes: result.lighthouseResults?.metrics?.['dom-size'] || 0,
       // Test metadata
       device_type: result.testInfo.project?.name || 'unknown',
       viewport_width: result.lighthouseResults?.deviceSettings?.width || 0,
       viewport_height: result.lighthouseResults?.deviceSettings?.height || 0,
       is_mobile: result.lighthouseResults?.deviceSettings?.mobile || false,
-      environment: process.env.CI ? 'ci' : 'local'
+      environment: process.env.CI ? 'ci' : 'local',
     })),
     // Keep original results for backward compatibility
-    results: testResults
+    results: testResults,
   };
   fs.writeFileSync(jsonReportPath, JSON.stringify(jsonReport, null, 2));
 
   return {
     html: htmlReportPath,
-    json: jsonReportPath
+    json: jsonReportPath,
   };
 }
 
@@ -151,24 +187,36 @@ function createConsolidatedHtmlReport(timestamp, results) {
                 <div>Total Tests</div>
               </div>
               <div class="metric-card">
-                <div class="score">${results.reduce((acc, r) => acc + r.axeResults.metrics.total_violations, 0)}</div>
+                <div class="score">${results.reduce(
+    (acc, r) => acc + r.axeResults.metrics.total_violations,
+    0,
+  )}</div>
                 <div>Total Accessibility Issues</div>
               </div>
-              ${Object.entries(thresholds).map(([key, threshold]) => {
-                const average = Math.round(results.reduce((acc, r) => acc + r.lighthouseResults.metrics[key], 0) / results.length);
-                const scoreClass = getScoreClass(average, threshold);
-                return `
+              ${Object.entries(thresholds)
+    .map(([key, threshold]) => {
+      const average = Math.round(
+        results.reduce(
+          (acc, r) => acc + r.lighthouseResults.metrics[key],
+          0,
+        ) / results.length,
+      );
+      const scoreClass = getScoreClass(average, threshold);
+      return `
                   <div class="metric-card">
                     <div class="score ${scoreClass}">${average}%</div>
                     <div>${key.charAt(0).toUpperCase() + key.slice(1)}</div>
                     <div class="threshold">Threshold: ${threshold}%</div>
                   </div>
                 `;
-              }).join('')}
+    })
+    .join('')}
             </div>
           </div>
 
-          ${results.map((result, index) => generateTestSection(result, index)).join('')}
+          ${results
+    .map((result, index) => generateTestSection(result, index))
+    .join('')}
         </div>
       </body>
     </html>
@@ -182,17 +230,27 @@ function createConsolidatedHtmlReport(timestamp, results) {
  * @returns {string} HTML content for test section
  */
 function generateTestSection(result, index) {
-  const hasCriticalOrSerious = result.axeResults.metrics.critical_violations > 0 || result.axeResults.metrics.serious_violations > 0;
-  const hasModerateOrMinor = result.axeResults.metrics.moderate_violations > 0 || result.axeResults.metrics.minor_violations > 0;
-  
+  const hasCriticalOrSerious = result.axeResults.metrics.critical_violations > 0
+    || result.axeResults.metrics.serious_violations > 0;
+  const hasModerateOrMinor = result.axeResults.metrics.moderate_violations > 0
+    || result.axeResults.metrics.minor_violations > 0;
+
   // Determine status based on log level
   let statusIcon = '✅';
   let statusClass = 'pass';
-  
-  if (result.logLevel === LOG_LEVELS.ERROR || hasCriticalOrSerious || result.lighthouseResults.thresholdBreachSeverity === LOG_LEVELS.ERROR) {
+
+  if (
+    result.logLevel === LOG_LEVELS.ERROR
+    || hasCriticalOrSerious
+    || result.lighthouseResults.thresholdBreachSeverity === LOG_LEVELS.ERROR
+  ) {
     statusIcon = '❌';
     statusClass = 'fail';
-  } else if (result.logLevel === LOG_LEVELS.WARN || hasModerateOrMinor || result.lighthouseResults.thresholdBreachSeverity === LOG_LEVELS.WARN) {
+  } else if (
+    result.logLevel === LOG_LEVELS.WARN
+    || hasModerateOrMinor
+    || result.lighthouseResults.thresholdBreachSeverity === LOG_LEVELS.WARN
+  ) {
     statusIcon = '⚠️';
     statusClass = 'warning';
   }
@@ -200,13 +258,13 @@ function generateTestSection(result, index) {
   // Extract just the filename from the full paths
   const lighthouseReportPath = path.relative(
     path.dirname(path.join(reportPaths.consolidated, 'dummy')),
-    result.lighthouseResults.reportPaths.html
+    result.lighthouseResults.reportPaths.html,
   );
   const axeReportPath = path.relative(
     path.dirname(path.join(reportPaths.consolidated, 'dummy')),
-    result.axeResults.reportPaths.html
+    result.axeResults.reportPaths.html,
   );
-  
+
   // Get relative path for test file
   const relativePath = path.relative(process.cwd(), result.testFile);
 
@@ -218,7 +276,7 @@ function generateTestSection(result, index) {
     'moderate_violations',
     'minor_violations',
     'passes',
-    'total_tests'
+    'total_tests',
   ];
 
   // Get thresholds from the first result (they should be the same for all results)
@@ -226,7 +284,7 @@ function generateTestSection(result, index) {
     performance: 80,
     accessibility: 90,
     'best-practices': 90,
-    seo: 90
+    seo: 90,
   };
 
   return `
@@ -243,30 +301,41 @@ function generateTestSection(result, index) {
         <h3>Performance Metrics</h3>
         <div class="metrics">
           ${Object.entries(result.lighthouseResults.metrics)
-            .filter(([key]) => key !== 'pwa') // Remove PWA metrics
-            .map(([key, value]) => {
-              const threshold = defaultThresholds[key];
-              const scoreClass = getScoreClass(value, threshold);
-              return `
+    .filter(([key]) => key !== 'pwa') // Remove PWA metrics
+    .map(([key, value]) => {
+      const threshold = defaultThresholds[key];
+      const scoreClass = getScoreClass(value, threshold);
+      return `
                 <div class="metric-card">
                   <div class="score ${scoreClass}">${value}%</div>
                   <div>${key.charAt(0).toUpperCase() + key.slice(1)}</div>
-                  ${threshold ? `<div class="threshold">Threshold: ${threshold}%</div>` : ''}
+                  ${
+  threshold
+    ? `<div class="threshold">Threshold: ${threshold}%</div>`
+    : ''
+}
                 </div>
               `;
-            }).join('')}
+    })
+    .join('')}
         </div>
 
         <h3>Accessibility Results</h3>
         <div class="metrics">
           ${Object.entries(result.axeResults.metrics)
-            .filter(([key]) => metricsToShow.includes(key))
-            .map(([key, value]) => `
+    .filter(([key]) => metricsToShow.includes(key))
+    .map(
+      ([key, value]) => `
               <div class="metric-card">
                 <div class="score">${value}</div>
-                <div>${key.split('_').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ')}</div>
+                <div>${key
+    .split('_')
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(' ')}</div>
               </div>
-            `).join('')}
+            `,
+    )
+    .join('')}
         </div>
 
         <div class="report-links">
@@ -421,7 +490,4 @@ function getReportScript() {
   `;
 }
 
-module.exports = {
-  resetTestResults,
-  generateConsolidatedReport
-}; 
+export { resetTestResults, generateConsolidatedReport };
