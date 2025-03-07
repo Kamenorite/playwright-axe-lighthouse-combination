@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Automated accessibility and performance testing with Playwright",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "ENABLE_LIGHTHOUSE=true ENABLE_AXE=true playwright test tests/ecommerce.spec.js --project=chromium",
     "test:chrome": "ENABLE_LIGHTHOUSE=true ENABLE_AXE=true playwright test tests/ecommerce.spec.js --project=chromium",

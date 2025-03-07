@@ -12,7 +12,9 @@ class TestState {
 
   addResult(result) {
     this.testResults.push(result);
-    console.log(`Added test result for "${result.testName}". Current test results count: ${this.testResults.length}`);
+    console.log(
+      `Added test result for "${result.testName}". Current test results count: ${this.testResults.length}`,
+    );
   }
 
   getResults() {
@@ -21,4 +23,5 @@ class TestState {
 }
 
 // Export singleton instance
-module.exports = new TestState(); 
+const testState = new TestState();
+export default testState;

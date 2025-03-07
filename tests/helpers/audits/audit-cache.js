@@ -94,4 +94,5 @@ class AuditCache {
 }
 
 // Export singleton instance
-module.exports = new AuditCache(); 
+const auditCache = new AuditCache();
+export default auditCache;

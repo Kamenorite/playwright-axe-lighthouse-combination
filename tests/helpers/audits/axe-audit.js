@@ -1,8 +1,11 @@
-const { AxeBuilder } = require('@axe-core/playwright');
-const fs = require('fs');
-const path = require('path');
-const { getFormattedTimestamp, ensureDirectoryExists } = require('../utils/file-utils');
-const { reportPaths } = require('../config/audit-config');
+import { AxeBuilder } from '@axe-core/playwright';
+import fs from 'fs';
+import path from 'path';
+import {
+  getFormattedTimestamp,
+  ensureDirectoryExists,
+} from '../utils/file-utils.js';
+import { reportPaths } from '../config/audit-config.js';
 
 /**
  * Runs an accessibility audit using Axe
@@ -12,34 +15,36 @@ const { reportPaths } = require('../config/audit-config');
  */
 async function runAccessibilityAudit(page, options = {}) {
   const timestamp = getFormattedTimestamp();
-  
+  const url = page.url();
+
   // Ensure reports directory exists
   ensureDirectoryExists(reportPaths.axe);
 
   // Wait for the page to be fully loaded
   await page.waitForLoadState('networkidle');
-  
+
   // Wait for page content to be visible - using a more generic approach
   // instead of waiting for a specific selector like '.todoapp'
   await page.waitForSelector('body', { state: 'visible' });
 
-  // Configure Axe builder with more comprehensive options
+  // Configure Axe builder with comprehensive options
+  console.log(`Running accessibility audit for ${url}`);
   const builder = new AxeBuilder({ page })
     .withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa'])
     .options({
       runOnly: {
         type: 'tag',
-        values: ['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa', 'best-practice']
+        values: ['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa', 'best-practice'],
       },
       rules: {
         'color-contrast': { enabled: true },
         'document-title': { enabled: true },
         'html-has-lang': { enabled: true },
-        'label': { enabled: true },
+        label: { enabled: true },
         'landmark-one-main': { enabled: true },
         'page-has-heading-one': { enabled: true },
-        'region': { enabled: true }
-      }
+        region: { enabled: true },
+      },
     });
 
   // Run the audit
@@ -55,14 +60,20 @@ async function runAccessibilityAudit(page, options = {}) {
   // Calculate metrics
   const metrics = {
     total_violations: results.violations.length,
-    critical_violations: results.violations.filter(v => v.impact === 'critical').length,
-    serious_violations: results.violations.filter(v => v.impact === 'serious').length,
-    moderate_violations: results.violations.filter(v => v.impact === 'moderate').length,
-    minor_violations: results.violations.filter(v => v.impact === 'minor').length,
+    critical_violations: results.violations.filter(
+      (v) => v.impact === 'critical',
+    ).length,
+    serious_violations: results.violations.filter((v) => v.impact === 'serious')
+      .length,
+    moderate_violations: results.violations.filter(
+      (v) => v.impact === 'moderate',
+    ).length,
+    minor_violations: results.violations.filter((v) => v.impact === 'minor')
+      .length,
     passes: results.passes.length,
     total_tests: results.passes.length + results.violations.length,
-    has_critical_or_serious: results.violations.some(v => ['critical', 'serious'].includes(v.impact)),
-    has_moderate_or_minor: results.violations.some(v => ['moderate', 'minor'].includes(v.impact))
+    has_critical_or_serious: results.violations.some((v) => ['critical', 'serious'].includes(v.impact)),
+    has_moderate_or_minor: results.violations.some((v) => ['moderate', 'minor'].includes(v.impact)),
   };
 
   // Generate HTML report
@@ -74,8 +85,8 @@ async function runAccessibilityAudit(page, options = {}) {
     violations: results.violations,
     reportPaths: {
       html: htmlReportPath,
-      json: jsonReportPath
-    }
+      json: jsonReportPath,
+    },
   };
 }
 
@@ -89,7 +100,8 @@ function generateAxeHtmlReport(results, metrics) {
   const getStatusIcon = () => {
     if (metrics.has_critical_or_serious) {
       return '❌'; // Red cross for critical/serious violations
-    } else if (metrics.has_moderate_or_minor) {
+    }
+    if (metrics.has_moderate_or_minor) {
       return '⚠️'; // Orange warning for moderate/minor violations
     }
     return '✅'; // Green check for no violations
@@ -133,10 +145,17 @@ function generateAxeHtmlReport(results, metrics) {
         </div>
 
         <h2>Violations</h2>
-        ${results.violations.map(violation => `
+        ${results.violations
+    .map(
+      (violation) => `
           <div class="violation ${violation.impact}">
             <div class="violation-header">
-              <span class="violation-icon">${violation.impact === 'critical' || violation.impact === 'serious' ? '❌' : '⚠️'}</span>
+              <span class="violation-icon">${
+  violation.impact === 'critical'
+                || violation.impact === 'serious'
+    ? '❌'
+    : '⚠️'
+}</span>
               <h3>${violation.help} (${violation.impact})</h3>
             </div>
             <p>${violation.description}</p>
@@ -145,21 +164,25 @@ function generateAxeHtmlReport(results, metrics) {
             <details>
               <summary>Affected Elements (${violation.nodes.length})</summary>
               <ul>
-                ${violation.nodes.map(node => `
+                ${violation.nodes
+    .map(
+      (node) => `
                   <li>
                     <code>${node.html}</code>
                     <p>${node.failureSummary}</p>
                   </li>
-                `).join('')}
+                `,
+    )
+    .join('')}
               </ul>
             </details>
           </div>
-        `).join('')}
+        `,
+    )
+    .join('')}
       </body>
     </html>
   `;
 }
 
-module.exports = {
-  runAccessibilityAudit
-}; 
+export { runAccessibilityAudit };

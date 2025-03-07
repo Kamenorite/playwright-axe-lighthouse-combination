@@ -1,16 +1,14 @@
-const { runLighthouseAudit } = require("./audits/lighthouse-audit");
-const { runAccessibilityAudit } = require("./audits/axe-audit");
-const {
-  generateConsolidatedReport,
-} = require("./reporting/consolidated-report");
-const auditCache = require("./audits/audit-cache");
-const {
+import { runLighthouseAudit } from './audits/lighthouse-audit.js';
+import { runAccessibilityAudit } from './audits/axe-audit.js';
+import { generateConsolidatedReport } from './reporting/consolidated-report.js';
+import auditCache from './audits/audit-cache.js';
+import {
   defaultDeviceSettings,
   defaultThrottlingSettings,
   reportPaths,
-} = require("./config/audit-config");
-const testState = require("./state");
-const { ensureDirectoryExists } = require("./utils/file-utils");
+} from './config/audit-config.js';
+import testState from './state.js';
+import { ensureDirectoryExists } from './utils/file-utils.js';
 
 const testResults = [];
 
@@ -44,11 +42,11 @@ function calculateAverageLighthouseScores(runs) {
   if (!runs || runs.length === 0) return null;
 
   const metrics = [
-    "performance",
-    "accessibility",
-    "bestPractices",
-    "seo",
-    "pwa",
+    'performance',
+    'accessibility',
+    'bestPractices',
+    'seo',
+    'pwa',
   ];
   const totals = {};
 
@@ -59,7 +57,7 @@ function calculateAverageLighthouseScores(runs) {
   runs.forEach((run) => {
     if (run && run.scores) {
       metrics.forEach((metric) => {
-        if (typeof run.scores[metric] === "number") {
+        if (typeof run.scores[metric] === 'number') {
           totals[metric] += run.scores[metric];
         }
       });
@@ -95,7 +93,7 @@ async function runCombinedAudit(page, testInfo, config = {}) {
   let lighthouseResults = null;
 
   // Handle Axe audit (can be cached as it's deterministic)
-  if (process.env.ENABLE_AXE === "true") {
+  if (process.env.ENABLE_AXE === 'true') {
     if (auditCache.has(url, state)) {
       const cachedResults = auditCache.get(url, state);
       axeResults = cachedResults.axeResults;
@@ -106,14 +104,13 @@ async function runCombinedAudit(page, testInfo, config = {}) {
   }
 
   // Handle Lighthouse audit (multiple runs)
-  if (process.env.ENABLE_LIGHTHOUSE === "true") {
+  if (process.env.ENABLE_LIGHTHOUSE === 'true') {
     if (
       !auditCache.hasEnoughLighthouseRuns(url, state, REQUIRED_LIGHTHOUSE_RUNS)
     ) {
       // Run Lighthouse multiple times if we don't have enough runs
-      const remainingRuns =
-        REQUIRED_LIGHTHOUSE_RUNS -
-        auditCache.getLighthouseRuns(url, state).length;
+      const remainingRuns = REQUIRED_LIGHTHOUSE_RUNS
+        - auditCache.getLighthouseRuns(url, state).length;
       for (let i = 0; i < remainingRuns; i++) {
         const result = await runLighthouseAudit(page, config);
         auditCache.addLighthouseRun(url, result, state);
@@ -153,19 +150,19 @@ async function runCombinedAudit(page, testInfo, config = {}) {
 async function getPageState(page) {
   const states = {
     empty: async () => {
-      const items = await page.$$(".todo-list li");
+      const items = await page.$$('.todo-list li');
       return items.length === 0;
     },
     completed: async () => {
-      const completedItems = await page.$$(".todo-list li.completed");
-      const totalItems = await page.$$(".todo-list li");
+      const completedItems = await page.$$('.todo-list li.completed');
+      const totalItems = await page.$$('.todo-list li');
       return (
         completedItems.length > 0 && completedItems.length === totalItems.length
       );
     },
     mixed: async () => {
-      const completedItems = await page.$$(".todo-list li.completed");
-      const totalItems = await page.$$(".todo-list li");
+      const completedItems = await page.$$('.todo-list li.completed');
+      const totalItems = await page.$$('.todo-list li');
       return (
         completedItems.length > 0 && completedItems.length < totalItems.length
       );
@@ -173,13 +170,13 @@ async function getPageState(page) {
   };
 
   // Check each state in order
-  if (await states.empty()) return "empty";
-  if (await states.completed()) return "completed";
-  if (await states.mixed()) return "mixed";
-  return "with-items"; // Default state when there are only active items
+  if (await states.empty()) return 'empty';
+  if (await states.completed()) return 'completed';
+  if (await states.mixed()) return 'mixed';
+  return 'with-items'; // Default state when there are only active items
 }
 
-module.exports = {
+export {
   runCombinedAudit,
   runLighthouseAudit,
   runAccessibilityAudit,
